@@ -3,3 +3,4 @@ S-1d0b6100	T-6a3d	—	probe	claude	claude-sonnet-5-5	subscription	2026-10-14T13:
 S-708ef1f5	T-p5qb	—	probe	devin	swe-2-high	subscription	2026-10-14T13:34:56Z	2026-10-14T13:34:57Z	2026-10-14T13:35:10Z	1	14	—	—	—	unavailable	the harness reports none	—	—	unknown	—
 S-3a34074b	T-vgab	—	systems-architect	claude	claude-opus-5-5	subscription	2026-10-14T13:35:24Z	2026-10-14T13:35:26Z	2026-10-14T13:36:09Z	2	45	8	2646	89018	observed	—	—	—	unknown	—
 S-7e7224b1	T-2r6x	—	product-owner	claude	claude-opus-5-5	subscription	2026-10-14T13:36:12Z	2026-10-14T13:36:14Z	2026-10-14T13:36:39Z	2	27	6	2574	66114	observed	—	—	—	unknown	—
+S-2c99e038	T-zryp	—	product-owner	claude	claude-opus-5-5	subscription	2026-10-14T13:36:44Z	2026-10-14T13:36:46Z	2026-10-14T13:37:10Z	2	26	6	2349	68010	observed	—	—	—	unknown	—
