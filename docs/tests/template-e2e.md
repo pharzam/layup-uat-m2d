@@ -4,10 +4,10 @@ A generic pattern for writing an end-to-end test — the level defined in
 [`test-levels.md`](test-levels.md#3-end-to-end-e2e-tests). Copy the skeleton
 below for each new user-facing scenario.
 
-> **How to adapt this file.** Replace every `‹…›` placeholder with your stack's
-> real command once, in [`test-levels.md`](test-levels.md); this file inherits
-> them. Copy the [skeleton](#fill-in-skeleton) for each new scenario and delete
-> this note from your own copy once the first real test is in.
+> **How to use this file.** Write every `‹…›` command once, with the Go
+> toolchain's real command, in [`test-levels.md`](test-levels.md); this file inherits
+> them. Copy the [skeleton](#fill-in-skeleton) for each new scenario and remove
+> this note from the copy once the first real test is in.
 
 ## In plain terms
 

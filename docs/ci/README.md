@@ -1,25 +1,25 @@
-# Continuous integration (optional)
+# Continuous integration (not required)
 
 CI runs the [quality gate](../engineering-discipline.md) automatically on every
 change, so the gate is enforced by the forge rather than by memory. It is the
 **authority** — its checks are the ones you make required before a merge. The
 [`.githooks/`](../../.githooks/) run the same rules locally for fast feedback.
 
-**This is optional.** Armature is domain- and forge-free, so nothing here runs
-until you opt in. The templates in this directory are **inert** — they will not
-run while they sit here (that is deliberate: a half-filled workflow must never go
-red on the kit itself). You activate CI by copying the template your forge uses
+**This is not required.** The baseline is domain- and forge-free, so nothing here runs
+until the team opts in. The workflow files in this directory are **inert** — they will not
+run while they sit here (that is deliberate: a half-set-up workflow must never go
+red on the baseline itself). CI is activated by copying the file for the forge in use
 into the place it expects.
 
-**Live example — the kit runs its own.** Armature's repo activates the *ready-as-is*
+**Live example — the baseline runs its own.** The baseline's repo activates the *ready-as-is*
 subset for itself, under [`.github/workflows/`](../../.github/workflows/):
 [`ci.yml`](../../.github/workflows/ci.yml) (`adr-lint`, `prd-lint`,
 `discipline-tests`, `link-lint`),
 [`pr-title.yml`](../../.github/workflows/pr-title.yml), and
 [`pr-link.yml`](../../.github/workflows/pr-link.yml). It omits the `lint`, `tests`,
-and `security` jobs because the kit ships no product code to run them against — a
-worked instance of "delete any job your project does not need." Use those files as a
-filled-in reference alongside the templates here.
+and `security` jobs because the baseline ships no product code to run them against — a
+worked instance of "remove any job tally does not need." Use those files as a
+worked reference alongside the workflow files here.
 
 ## Activate
 
@@ -28,8 +28,8 @@ filled-in reference alongside the templates here.
 ```bash
 mkdir -p .github/workflows
 cp docs/ci/github-actions-ci.yml       .github/workflows/ci.yml
-cp docs/ci/github-actions-pr-title.yml .github/workflows/pr-title.yml   # optional
-cp docs/ci/github-actions-pr-link.yml  .github/workflows/pr-link.yml    # optional
+cp docs/ci/github-actions-pr-title.yml .github/workflows/pr-title.yml   # not required
+cp docs/ci/github-actions-pr-link.yml  .github/workflows/pr-link.yml    # not required
 ```
 
 **GitLab CI:**
@@ -38,23 +38,23 @@ cp docs/ci/github-actions-pr-link.yml  .github/workflows/pr-link.yml    # option
 cp docs/ci/gitlab-ci.yml .gitlab-ci.yml
 ```
 
-Then replace every `‹…›` marker with your stack's command, and
-[make the checks required](#make-the-checks-required) on your default branch.
+Then set every `‹…›` marker to the Go toolchain's command, and
+[make the checks required](#make-the-checks-required) on the default branch.
 
-## What the templates run
+## What the workflow files run
 
-| Job | What it checks | Ready or adapt? |
+| Job | What it checks | Ready or to be set? |
 |-----|----------------|-----------------|
 | `adr-lint` | `docs/adr/` discipline, via [`adr-lint.sh`](../adr/adr-lint.sh). | Ready as-is. |
 | `prd-lint` | `docs/prd/` discipline, via [`prd-lint.sh`](../prd/prd-lint.sh). | Ready as-is. |
 | `discipline-tests` | Runs each discipline linter against its good/bad fixtures, via [`run-discipline-tests.sh`](../tests/run-discipline-tests.sh). | Ready as-is. |
 | `link-lint` | Every in-tree Markdown link and heading anchor, via [`link-lint.sh`](../links/link-lint.sh). | Ready as-is. |
-| `lint` | Your formatter/linter. | Fill `‹…›`. |
-| `tests` | The test ladder, cheap → expensive — unit → integration → end-to-end (see [`test-levels.md`](../tests/test-levels.md)). | Fill each `‹…›`. |
-| `security` | Secret, dependency, and static-analysis scans over full history, behind `‹security scanner›` (see [`security-checklist.md`](../tests/security-checklist.md)). | Fill `‹…›`. |
-| PR title | Conventional Commits on the PR title (GitHub only). | Ready as-is — but its workflow copy is optional; skip the copy and [drop `conventional-title` with it](#drop-what-you-did-not-install). |
-| PR link | The PR body links an issue (R1), via [`pr-link-lint.sh`](pr-link-lint.sh). Its own PR-event workflow (GitHub); an `mr-link` job (GitLab). | Ready as-is — but its workflow copy is optional; skip the copy and [drop `pr-link` with it](#drop-what-you-did-not-install). |
-| Review record | The linked issue carries a plan, a plan review with its budget and cycle cap, and a parseable review record per round whose chronology holds (see [What a round records](../engineering-discipline.md#what-a-round-records)), via [`review-record-lint.sh`](review-record-lint.sh). Its own PR-event workflow ([`github-actions-review-record.yml`](github-actions-review-record.yml)). **Make this one required last** — it fails a pull request whose issue carries no record, so turning it on before your team writes records blocks every merge. |
+| `lint` | The Go formatter/linter. | Set `‹…›`. |
+| `tests` | The test ladder, cheap → expensive — unit → integration → end-to-end (see [`test-levels.md`](../tests/test-levels.md)). | Set each `‹…›`. |
+| `security` | Secret, dependency, and static-analysis scans over full history, behind `‹security scanner›` (see [`security-checklist.md`](../tests/security-checklist.md)). | Set `‹…›`. |
+| PR title | Conventional Commits on the PR title (GitHub only). | Ready as-is — but its workflow copy is not required; leave out the copy and [drop `conventional-title` with it](#drop-what-you-did-not-install). |
+| PR link | The PR body links an issue (R1), via [`pr-link-lint.sh`](pr-link-lint.sh). Its own PR-event workflow (GitHub); an `mr-link` job (GitLab). | Ready as-is — but its workflow copy is not required; leave out the copy and [drop `pr-link` with it](#drop-what-you-did-not-install). |
+| Review record | The linked issue carries a plan, a plan review with its budget and cycle cap, and a parseable review record per round whose chronology holds (see [What a round records](../engineering-discipline.md#what-a-round-records)), via [`review-record-lint.sh`](review-record-lint.sh). Its own PR-event workflow ([`github-actions-review-record.yml`](github-actions-review-record.yml)). **Make this one required last** — it fails a pull request whose issue carries no record, so turning it on before the team writes records blocks every merge. |
 
 **Every job restores its check scripts from the default branch before running
 them**. Without that, a pull
@@ -63,12 +63,12 @@ check — and replacing `run-discipline-tests.sh` as well turns the whole requir
 set green over a real defect. Both were measured. The limit that remains is that
 the workflow file itself comes from the pull request, so a branch that edits
 `ci.yml` removes the step; only review of `.github/**` closes that, and
-[`docs/guardrails.md`](../guardrails.md) states all three residual limits. An
-adopter with two human operators should add a `CODEOWNERS` entry over
+[`docs/guardrails.md`](../guardrails.md) states all three residual limits. A
+repository with two human operators should add a `CODEOWNERS` entry over
 `.github/**`, `.githooks/**` and `*-lint.sh` as well; a one-operator repository
 cannot, which is why it is not shipped on by default.
 
-Delete any job your project does not need. If you add a discipline test that lints
+Remove any job tally does not need. If you add a discipline test that lints
 files in the repo — as the [PRD linter](../prd/prd-lint.sh) does — wire it into
 both a CI job and the [`pre-commit`](../../.githooks/pre-commit) hook, the way
 `adr-lint` and `prd-lint` are. A check whose input is a forge artifact, not a repo
@@ -84,22 +84,22 @@ network and no token.
 
 A check that runs but does not block is a run result, not a merge control. Until a
 check is required on the default branch, a red run and a green one merge alike, and
-the kit's own [`ci.yml`](../../.github/workflows/ci.yml) says at its head that
+the baseline's own [`ci.yml`](../../.github/workflows/ci.yml) says at its head that
 making them block is a repository setting, not a file in the tree. This is the step
 the two `‹…›` rows of the
-[enforcement table](../issue-workflow.md#what-is-enforced-where) leave to you.
+[enforcement table](../issue-workflow.md#what-is-enforced-where) leave to the maintainers.
 
 **GitHub.** One `PUT` to the branch-protection endpoint sets the whole protection
 object. The body goes on standard input with `--input -`, because `gh api` flag
 syntax cannot express an array of objects. The `checks` below are the six the
-kit's own repository requires — a context is the check's displayed name, the job's
+baseline's own repository requires — a context is the check's displayed name, the job's
 `name:` or its id when it has none, which is why `conventional-title` carries no
 parenthesis —
 each pinned to `"app_id": 15368`, GitHub Actions; a bare `contexts` list would let
 any app or token satisfy a name by posting a status under it. The array is this
-repository's set, not yours: before you paste it, check every context against
+repository's set, not tally's own: before pasting it, check every context against
 [Drop what you did not install](#drop-what-you-did-not-install) and delete the line
-for each job you did not install — and add your own jobs as you fill them.
+for each job not installed — and add tally's own jobs as they are set up.
 
 ```bash
 gh api -X PUT repos/‹owner›/‹repo›/branches/‹default branch›/protection --input - <<'EOF'
@@ -151,7 +151,7 @@ succeed". Elsewhere: `‹the setting under which a failing pipeline blocks the m
 and the command that sets it›`.
 
 **Limits.** Writing or reading the setting needs an administration-scoped token,
-which `secrets.GITHUB_TOKEN` does not carry, so no text-only check in this kit
+which `secrets.GITHUB_TOKEN` does not carry, so no text-only check in this repository
 proves it: the verification is the command above, run by an operator, and each
 close-out records its output. A renamed or removed **job** blocks every merge until
 the setting follows it — the check name is the job's `name:` or its id, never the
@@ -170,20 +170,20 @@ access to the repository.
 ### Drop what you did not install
 
 The six contexts above are the ones **this** repository requires. Two of them are
-jobs the kit itself tells you elsewhere that you may leave out, and the array names
-them anyway. Delete the line for each one you did not install:
+jobs this document says elsewhere may be left out, and the array names
+them anyway. Delete the line for each one that is not installed:
 
 | Context | Delete it when |
 |---------|----------------|
-| `pr-link (PR body links an issue)` | You do not copy [`github-actions-pr-link.yml`](github-actions-pr-link.yml), which the Activate block marks optional. |
-| `conventional-title` | You do not copy [`github-actions-pr-title.yml`](github-actions-pr-title.yml), which the Activate block marks optional. |
-| Any other context | You deleted its job under "Delete any job your project does not need". |
+| `pr-link (PR body links an issue)` | You do not copy [`github-actions-pr-link.yml`](github-actions-pr-link.yml), which the Activate block marks as not required. |
+| `conventional-title` | You do not copy [`github-actions-pr-title.yml`](github-actions-pr-title.yml), which the Activate block marks as not required. |
+| Any other context | You deleted its job under "Remove any job tally does not need". |
 
 `link-lint` is last in the array on purpose, and it is the one line here that names
 no droppable job: deleting any line above it leaves the JSON valid, while deleting a
-*last* line leaves the comma before it and the body no longer parses. The template
-says to keep that job whatever else you drop, so it is the safe anchor. If you do drop
-it too, delete the trailing comma on the line above.
+*last* line leaves the comma before it and the body no longer parses. The workflow file
+says to keep that job whatever else is dropped, so it is the safe anchor. If it is dropped
+too, delete the trailing comma on the line above.
 
 **What one wrong line costs.** A required context that no workflow reports never
 arrives, so the check stays pending and no pull request merges — the mechanism
@@ -193,28 +193,28 @@ expensive, and it is worth knowing which route costs what: an administrator edit
 protection in the repository's own settings, under Branches, at no token cost —
 `enforce_admins` binds merges, not the setting itself. The scripted route is a second
 `PUT` of the whole corrected body, and that one needs the administration-scoped token
-**Limits** names, which `secrets.GITHUB_TOKEN` does not carry. So an adopter who set
+**Limits** names, which `secrets.GITHUB_TOKEN` does not carry. So an operator who set
 this from CI can undo it by hand but not from CI.
 
 **On another forge.** This subsection is GitHub-shaped, because the array it prunes is
 GitHub's. [`gitlab-ci.yml`](gitlab-ci.yml) ships `‹…›` jobs of its own, and its gate —
 "Pipelines must succeed" on a protected branch — is pipeline-wide: there is no list of
 contexts to prune, so this subsection's deletions have no counterpart there. What a
-GitLab adopter deletes instead is the **job**, in `gitlab-ci.yml` itself, for anything
-they did not install or will not fill: a job left unfilled fails the whole pipeline and
+GitLab maintainer deletes instead is the **job**, in `gitlab-ci.yml` itself, for anything
+that is not installed or will not be set: a job left unset fails the whole pipeline and
 blocks every merge, where GitHub would leave one check pending. That is the same trap
 with a louder failure, and the edit that avoids it is in the pipeline file rather than
 in a list of contexts. `‹the setting under which a failing
-pipeline blocks the merge›` is where an adopter on a third forge records what their
+pipeline blocks the merge›` is where a team on a third forge records what its
 own gate does.
 
 **The same instruction, read the other way.**
 [`github-actions-ci.yml`](github-actions-ci.yml) ships three jobs the array names none
-of, and they run green while blocking nothing until you add them — the trap this
-section exists to close, met from the third side. Add each one **as you fill it**, and
+of, and they run green while blocking nothing until they are added — the trap this
+section exists to close, met from the third side. Add each one **as it is set up**, and
 add its *context*, which is the job's `name:` and not its id:
 `lint (‹your linter/formatter›)`, `tests (unit → integration → e2e)` and
 `security (‹security scanner›)`. Two of those names still hold a `‹…›` marker, so
-replace the marker in the workflow first and copy the resulting name: a context that
+set the marker in the workflow first and copy the resulting name: a context that
 names a marker is a context nothing will ever report, which is this section's own
 failure by another route. Add none of them before the job has reported once.

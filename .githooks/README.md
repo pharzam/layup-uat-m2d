@@ -29,9 +29,9 @@ to run when the resolved path lies outside the tree being committed to; see
 
 ## What each hook does
 
-| Hook | Runs | Adapt? |
+| Hook | Runs | Change? |
 |------|------|--------|
-| [`pre-commit`](pre-commit) | A provenance check on where the hooks came from, then the ADR, PRD and link linters and the discipline self-tests, then your `‹lint›` / test levels (fast subset) / security checks (fast subset). | Fill the `‹…›` steps for your stack. |
+| [`pre-commit`](pre-commit) | A provenance check on where the hooks came from, then the ADR, PRD and link linters and the discipline self-tests, then the `‹lint›` / test levels (fast subset) / security checks (fast subset). | Set the `‹…›` steps for the Go toolchain. |
 | [`commit-msg`](commit-msg) | Conventional-Commits check on the subject line. | Ready as-is. |
 | [`pre-push`](pre-push) | Refuses a direct push to `main` — use a branch and a PR instead. | Change the branch name if your default is not `main`. |
 
@@ -40,23 +40,23 @@ to run when the resolved path lies outside the tree being committed to; see
 [`pre-push`](pre-push) blocks a direct push to `main` so changes go through a
 branch and a pull request. It is a **local, fast-feedback guardrail only** —
 advisory, bypassable with `git push --no-verify`, and absent on a fresh clone
-until `core.hooksPath` is set. The real, unbypassable lock is your host's
+until `core.hooksPath` is set. The real, unbypassable lock is the host's
 **branch-protection rule** (require a pull request before merging), enforced
 server-side. Turn that on for every repo; this hook is its local twin, not a
 substitute.
 
-## How to adapt
+## How to set up
 
-1. Open [`pre-commit`](pre-commit) and replace each `‹…›` with your project's
-   command, then uncomment that line. Delete any step you do not use. Keep the
+1. Open [`pre-commit`](pre-commit) and set each `‹…›` to the project's
+   command, then uncomment that line. Remove any step tally does not use. Keep the
    steps cheap-first and fast — the full test suite belongs in CI.
 2. [`commit-msg`](commit-msg) is ready to use; widen its type list only if you
    first agree the new type in
    [§"Commit messages"](../docs/engineering-discipline.md#commit-messages).
 
-## Optional: the `pre-commit` framework
+## Not required: the `pre-commit` framework
 
-For a richer setup — pinned, shared, auto-updating hooks across languages — adopt
+For a richer setup — pinned, shared, auto-updating hooks across languages — use
 the [`pre-commit`](https://pre-commit.com) framework and drive it from a
 `.pre-commit-config.yaml`. It replaces these shell hooks; keep one approach, not
 both. The plain hooks here are the dependency-free default.
