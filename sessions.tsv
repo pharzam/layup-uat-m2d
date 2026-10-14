@@ -4,3 +4,4 @@ S-708ef1f5	T-p5qb	1	probe	devin	devin 3000.11.3 (9c803229faa4)	swe-2-high	2fc9ad
 S-3a34074b	T-vgab	1	systems-architect	claude	2.1.299 (Claude Code)	claude-opus-5-5	2fc9ad7502e8e89ec4f64d718bf1d7034eef54ef	b4fd16c794f1b149502c68eb1ba7f765502ffd51	1023	256	1000000	5.00	30	ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-sonnet-5-5	—
 S-7e7224b1	T-2r6x	1	product-owner	claude	2.1.299 (Claude Code)	claude-opus-5-5	2fc9ad7502e8e89ec4f64d718bf1d7034eef54ef	90ac32cc3ff1c8b76046908b6b29a74843e150f1	1096	274	1000000	5.00	30	ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-sonnet-5-5	—
 S-2c99e038	T-zryp	1	product-owner	claude	2.1.299 (Claude Code)	claude-opus-5-5	2fc9ad7502e8e89ec4f64d718bf1d7034eef54ef	fa300c9ee002a209957a844e3ac9da29cb3df769	1073	269	1000000	5.00	30	ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-sonnet-5-5	—
+S-369504d1	T-bobf	1	qa-engineer	devin	devin 3000.11.3 (9c803229faa4)	swe-2-high	2fc9ad7502e8e89ec4f64d718bf1d7034eef54ef	1b6b0e2408b7467be2b63d1267b2044f23f528cb	1149	288	262000	—	15	—	—
