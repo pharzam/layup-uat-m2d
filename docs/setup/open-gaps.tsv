@@ -19,3 +19,4 @@ docs/tests/dod-checklist.md	‹a known pitfall from guardrails.md is defended ag
 docs/tests/dod-checklist.md	‹unit \| integration \| e2e›	the value of ‹unit \| integration \| e2e› at docs/tests/dod-checklist.md:66
 docs/tests/dod-checklist.md	‹a row with a Guardrail cell filled in›	the value of ‹a row with a Guardrail cell filled in› at docs/tests/dod-checklist.md:66
 docs/tests/dod-checklist.md	‹the review round citing commit, reviewer, lens and verdict›	the value of ‹the review round citing commit, reviewer, lens and verdict› at docs/tests/dod-checklist.md:67
+docs/gates/coverage-floor.txt	‹the coverage floor of the test kind›	Which coverage floor, in percent of the statements, must the tests of the test kind reach, and what is its evidence?
