@@ -1,0 +1,21 @@
+docs/ci/README.md	‹the setting under which a failing pipeline blocks the merge, and the command that sets it›	the value of ‹the setting under which a failing pipeline blocks the merge, and the command that sets it› at docs/ci/README.md:150
+docs/ci/README.md	‹the setting under which a failing pipeline blocks the merge›	the value of ‹the setting under which a failing pipeline blocks the merge› at docs/ci/README.md:207
+docs/issue-workflow.md	‹require a PR before merge›	the value of ‹require a PR before merge› at docs/issue-workflow.md:239
+docs/issue-workflow.md	‹require the check before merge›	the value of ‹require the check before merge› at docs/issue-workflow.md:243
+docs/issue-workflow.md	‹add a coverage gate›	the value of ‹add a coverage gate› at docs/issue-workflow.md:244
+docs/tests/dod-checklist.md	‹every requirement has a test›	the value of ‹every requirement has a test› at docs/tests/dod-checklist.md:62
+docs/tests/dod-checklist.md	‹unit \| integration›	the value of ‹unit \| integration› at docs/tests/dod-checklist.md:62
+docs/tests/dod-checklist.md	‹a REQ/NFR row in the traceability table›	the value of ‹a REQ/NFR row in the traceability table› at docs/tests/dod-checklist.md:62
+docs/tests/dod-checklist.md	‹✓ / ✗›	the value of ‹✓ / ✗› at docs/tests/dod-checklist.md:62
+docs/tests/dod-checklist.md	‹every user-facing path has a test›	the value of ‹every user-facing path has a test› at docs/tests/dod-checklist.md:63
+docs/tests/dod-checklist.md	‹e2e›	the value of ‹e2e› at docs/tests/dod-checklist.md:63
+docs/tests/dod-checklist.md	‹an E2E row per scenario›	the value of ‹an E2E row per scenario› at docs/tests/dod-checklist.md:63
+docs/tests/dod-checklist.md	‹a delivered feature is signed off by a person›	the value of ‹a delivered feature is signed off by a person› at docs/tests/dod-checklist.md:64
+docs/tests/dod-checklist.md	‹uat›	the value of ‹uat› at docs/tests/dod-checklist.md:64
+docs/tests/dod-checklist.md	‹a UAT row, human-checked›	the value of ‹a UAT row, human-checked› at docs/tests/dod-checklist.md:64
+docs/tests/dod-checklist.md	‹a bug fix has a test that fails on the old code›	the value of ‹a bug fix has a test that fails on the old code› at docs/tests/dod-checklist.md:65
+docs/tests/dod-checklist.md	‹a row citing the bug's task ID›	the value of ‹a row citing the bug's task ID› at docs/tests/dod-checklist.md:65
+docs/tests/dod-checklist.md	‹a known pitfall from guardrails.md is defended against›	the value of ‹a known pitfall from guardrails.md is defended against› at docs/tests/dod-checklist.md:66
+docs/tests/dod-checklist.md	‹unit \| integration \| e2e›	the value of ‹unit \| integration \| e2e› at docs/tests/dod-checklist.md:66
+docs/tests/dod-checklist.md	‹a row with a Guardrail cell filled in›	the value of ‹a row with a Guardrail cell filled in› at docs/tests/dod-checklist.md:66
+docs/tests/dod-checklist.md	‹the review round citing commit, reviewer, lens and verdict›	the value of ‹the review round citing commit, reviewer, lens and verdict› at docs/tests/dod-checklist.md:67

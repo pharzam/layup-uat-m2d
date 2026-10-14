@@ -4,7 +4,7 @@ The home for this project's **product tests** — the tests of your code. It shi
 empty on purpose: the baseline is domain-free and has no product, so it has no
 product tests of its own. For tally, the unit, integration, and
 end-to-end tests go here (or in whatever layout the Go toolchain expects — this
-directory is the default `‹test directory›`).
+directory is the default `*_test.go beside the code; root tests/ for end-to-end fixtures`).
 
 ## In plain terms
 
@@ -31,8 +31,7 @@ link, PR-link and review-record linters — are not product tests and do
 [`docs/`](../docs/).
 
 > **How to set up this directory.** Add tally's product tests here, mirror the
-> source layout if that is the Go convention, and set the `‹test
-> directory›` placeholder in [`docs/tests/test-levels.md`](../docs/tests/test-levels.md)
+> source layout if that is the Go convention, and set the `*_test.go beside the code; root tests/ for end-to-end fixtures` placeholder in [`docs/tests/test-levels.md`](../docs/tests/test-levels.md)
 > and the [hook](../.githooks/pre-commit)/[CI](../docs/ci/) steps to point at it.
 > The `.gitkeep` file only exists to keep this empty directory in git — remove it
 > once a real test is added. Remove this note once the tests are in.

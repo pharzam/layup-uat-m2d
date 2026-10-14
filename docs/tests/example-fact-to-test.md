@@ -14,8 +14,7 @@ shows); every other link is filled.
 > **About this file.** This is an **illustrative** example — it walks one real
 > line of tally, the total row of F-0001#5, from fact to test. The requirement ID
 > and the task ID are samples. It names no test runner beyond the Go toolchain: the
-> test's command stays the `‹unit test
-> command›` marker throughout. Remove this
+> test's command stays the `go test ./...` marker throughout. Remove this
 > note when the example is kept as the project's own.
 
 ## In plain terms
@@ -71,15 +70,15 @@ order:
 
 1. **Red.** Write the test first: give the total one file counted without error and one
    that is not valid UTF-8, and assert the total equals the counts of the first
-   file alone. Run `‹unit test command›`; watch it **fail** against code that still
+   file alone. Run `go test ./...`; watch it **fail** against code that still
    adds the invalid file to the total — failing for the *right* reason.
-2. **Green.** Leave the failed file out of the total, run `‹unit test command›` again, watch it
+2. **Green.** Leave the failed file out of the total, run `go test ./...` again, watch it
    **pass**.
 3. **Freeze.** Once a fresh context confirms it
    ([R9](../issue-workflow.md#r9--test-freeze-after-confirmation)), the test is
    frozen: not weakened later to make new code pass.
 
-The test lives under `‹test directory›` and is tagged `unit` so it can run alone.
+The test lives under `*_test.go beside the code; root tests/ for end-to-end fixtures` and is tagged `unit` so it can run alone.
 
 ## 5. The traceability row (the line, written down)
 

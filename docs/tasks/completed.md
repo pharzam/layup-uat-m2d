@@ -17,6 +17,6 @@ here directly, in the shape above.
 ## Log
 
 <!-- Most recent first. Example shape:
-- **YYYY-MM-DD** — **‹ID›** — ‹one-sentence summary of what the task found or delivered› ([‹link›](...); [detail](‹id›.md))
+- **YYYY-MM-DD** — **<ID>** — <one-sentence summary of what the task found or delivered> ([<link>](...); [detail](<id>.md))
 -->
 

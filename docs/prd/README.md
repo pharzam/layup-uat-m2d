@@ -9,7 +9,7 @@ a requirement back to the customer's exact words.
 
 > **How to set up this directory.** Keep [`template.md`](template.md), this README,
 > and [`prd-lint.sh`](prd-lint.sh) — they are the reusable scaffold. Write the
-> real PRDs beside them as `PRD-NNNN-‹slug›.md`. A project with no external
+> real PRDs beside them as `PRD-NNNN-<slug>.md`. A project with no external
 > customer, or one too small to need requirement tracking, can remove this whole
 > directory (and the `prd-lint` steps in the [hooks](../../.githooks/pre-commit)
 > and [CI](../ci/)); nothing else depends on it. Remove this note once the first
@@ -63,7 +63,7 @@ fresh baseline (no PRDs yet). It is wired into the
 PRD shape changes, change the linter in the same change** — the two must
 agree. Its self-tests live in [`tests/`](tests/) (sample good and bad PRDs, not
 example content to copy). A project on a specific stack may instead port these
-checks to its `‹test runner›`.
+checks to its ``go test`, the Go toolchain with the standard library only`.
 
 ## Index
 

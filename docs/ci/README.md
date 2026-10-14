@@ -51,7 +51,7 @@ Then set every `‹…›` marker to the Go toolchain's command, and
 | `link-lint` | Every in-tree Markdown link and heading anchor, via [`link-lint.sh`](../links/link-lint.sh). | Ready as-is. |
 | `lint` | The Go formatter/linter. | Set `‹…›`. |
 | `tests` | The test ladder, cheap → expensive — unit → integration → end-to-end (see [`test-levels.md`](../tests/test-levels.md)). | Set each `‹…›`. |
-| `security` | Secret, dependency, and static-analysis scans over full history, behind `‹security scanner›` (see [`security-checklist.md`](../tests/security-checklist.md)). | Set `‹…›`. |
+| `security` | Secret, dependency, and static-analysis scans over full history, behind `govulncheck v1.8.0, go vet, and gitleaks` (see [`security-checklist.md`](../tests/security-checklist.md)). | Set `‹…›`. |
 | PR title | Conventional Commits on the PR title (GitHub only). | Ready as-is — but its workflow copy is not required; leave out the copy and [drop `conventional-title` with it](#drop-what-you-did-not-install). |
 | PR link | The PR body links an issue (R1), via [`pr-link-lint.sh`](pr-link-lint.sh). Its own PR-event workflow (GitHub); an `mr-link` job (GitLab). | Ready as-is — but its workflow copy is not required; leave out the copy and [drop `pr-link` with it](#drop-what-you-did-not-install). |
 | Review record | The linked issue carries a plan, a plan review with its budget and cycle cap, and a parseable review record per round whose chronology holds (see [What a round records](../engineering-discipline.md#what-a-round-records)), via [`review-record-lint.sh`](review-record-lint.sh). Its own PR-event workflow ([`github-actions-review-record.yml`](github-actions-review-record.yml)). **Make this one required last** — it fails a pull request whose issue carries no record, so turning it on before the team writes records blocks every merge. |
@@ -102,7 +102,7 @@ repository's set, not tally's own: before pasting it, check every context agains
 for each job not installed — and add tally's own jobs as they are set up.
 
 ```bash
-gh api -X PUT repos/‹owner›/‹repo›/branches/‹default branch›/protection --input - <<'EOF'
+gh api -X PUT repos/pharzam/layup-uat-m2d/branches/main/protection --input - <<'EOF'
 {
   "required_status_checks": {
     "strict": true,
@@ -143,7 +143,7 @@ requirement while adding the check requirement. `"restrictions": null` is requir
 and must be null on a user-owned repository, because push restrictions exist for
 organizations only. `required_signatures` is a separate endpoint the `PUT` does not
 touch. Read the setting back with
-`gh api repos/‹owner›/‹repo›/branches/‹default branch›/protection`; that output, not
+`gh api repos/pharzam/layup-uat-m2d/branches/main/protection`; that output, not
 the green run, is the evidence a close-out records.
 
 **Another forge.** GitLab: protect the default branch and turn on "Pipelines must
@@ -213,8 +213,8 @@ own gate does.
 of, and they run green while blocking nothing until they are added — the trap this
 section exists to close, met from the third side. Add each one **as it is set up**, and
 add its *context*, which is the job's `name:` and not its id:
-`lint (‹your linter/formatter›)`, `tests (unit → integration → e2e)` and
-`security (‹security scanner›)`. Two of those names still hold a `‹…›` marker, so
+`lint (gofmt and go vet)`, `tests (unit → integration → e2e)` and
+`security (govulncheck v1.8.0, go vet, and gitleaks)`. Two of those names still hold a `‹…›` marker, so
 set the marker in the workflow first and copy the resulting name: a context that
 names a marker is a context nothing will ever report, which is this section's own
 failure by another route. Add none of them before the job has reported once.

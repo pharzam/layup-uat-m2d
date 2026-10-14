@@ -6,8 +6,8 @@ security track described in
 [`test-levels.md`](test-levels.md#security-tests-sit-alongside-the-ladder) — a
 parallel track to the test ladder, not a rung on it.
 
-> **How to set up this file.** Set `‹security scanner›` and
-> `‹security test command›` to the Go toolchain's real tool and command everywhere
+> **How to set up this file.** Set `govulncheck v1.8.0, go vet, and gitleaks` and
+> `go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact` to the Go toolchain's real tool and command everywhere
 > they appear here — [`test-levels.md`](test-levels.md) is the one place they are
 > defined, and this file inherits them. Add a project-specific check to
 > [the table](#the-minimum-checks) or [Add your own](#add-your-own) for anything
@@ -38,12 +38,12 @@ Like the [ADR and PRD linters](../engineering-discipline.md#testing), the
 security checks are wired into two layers, cheap-first:
 
 - The fast subset — a secret scan on staged changes, and a static-analysis
-  subset where it is fast enough — runs via `‹security test command›` in the
+  subset where it is fast enough — runs via `go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact` in the
   [`pre-commit` hook](../../.githooks/pre-commit), before a commit is recorded.
-- The full set — all three checks, run in full — runs via `‹security test command›`
+- The full set — all three checks, run in full — runs via `go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact`
   in [CI](../ci/), as the authority.
 
-`‹security scanner›` names the tool both layers drive. Both are inert until the
+`govulncheck v1.8.0, go vet, and gitleaks` names the tool both layers drive. Both are inert until the
 `‹…›` steps are set for the Go toolchain.
 
 ## A pre-registered bar

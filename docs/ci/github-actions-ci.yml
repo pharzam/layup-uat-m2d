@@ -17,9 +17,9 @@ name: CI
 
 on:
   pull_request:
-    branches: [ "‹default branch, e.g. main›" ]
+    branches: [ "main" ]
   push:
-    branches: [ "‹default branch, e.g. main›" ]
+    branches: [ "main" ]
 
 # Least privilege by default: the discipline jobs only read the repo. Raise this
 # per job (e.g. a job that must comment on a PR needs `pull-requests: write`) —
@@ -70,12 +70,12 @@ jobs:
       - run: sh docs/links/link-lint.sh
 
   lint:
-    name: lint (‹your linter/formatter›)
+    name: lint (gofmt and go vet)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # ‹set up your toolchain here›
-      - run: "‹lint command, e.g. a formatter --check plus a linter›"
+      # the Go toolchain
+      - run: "test -z "$(gofmt -l .)" && go vet ./..."
 
   tests:
     name: tests (unit → integration → e2e)
@@ -84,30 +84,30 @@ jobs:
     # the whole ladder. See docs/tests/test-levels.md. Fill each ‹…› for your stack.
     steps:
       - uses: actions/checkout@v4
-      # ‹set up your toolchain here›
+      # the Go toolchain
       - name: unit
-        run: "‹unit test command›"
+        run: "go test ./..."
       - name: integration
-        run: "‹integration test command›"
+        run: "go test -tags=integration ./..."
       - name: end-to-end
-        run: "‹end-to-end test command›"   # long-running — bounded by ‹test timeout›
+        run: "go test -tags=e2e ./..."   # long-running — bounded by -timeout 10m
 
   security:
-    name: security (‹security scanner›)
+    name: security (govulncheck, go vet and gitleaks)
     runs-on: ubuntu-latest
     permissions:
       contents: read
     # The security track — secret, dependency, and static-analysis scans over the
-    # full history. Each step takes its own ‹security test command›, or fill all
-    # three with one multi-scan command; ‹security scanner› names the tool.
+    # full history. Each step takes its own go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact, or fill all
+    # three with one multi-scan command; govulncheck, go vet and gitleaks names the tool.
     # See docs/tests/security-checklist.md for the checks and pass conditions.
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0   # full history, so the scan sees every commit
       - name: secret scan
-        run: "‹security test command›"   # e.g. a scan for committed credentials
+        run: "go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact"   # e.g. a scan for committed credentials
       - name: dependency scan
-        run: "‹security test command›"   # e.g. a scan for known-vulnerable dependencies
+        run: "go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact"   # e.g. a scan for known-vulnerable dependencies
       - name: static analysis
-        run: "‹security test command›"   # e.g. an insecure-pattern scan without running the code
+        run: "go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact"   # e.g. an insecure-pattern scan without running the code

@@ -20,11 +20,11 @@ maintainers to complete. The discipline self-tests are the exceptions because th
 > **How to set up this section.** Do three things, then remove this note.
 > 1. **Set the markers.** Write the real command for every `‹…›` command in
 >    [`test-levels.md`](test-levels.md), using the Go toolchain
->    (`‹unit test command›`, `‹integration test command›`, and so on). That file
+>    (`go test ./...`, `go test -tags=integration ./...`, and so on). That file
 >    is the one place the commands are defined; the patterns inherit them.
 > 2. **Wire enforcement.** Set the matching `‹…›` steps in the
 >    [`pre-commit` hook](../../.githooks/pre-commit) and the [CI workflows](../ci/),
->    including the `‹security scanner›` step — see
+>    including the `govulncheck v1.8.0, go vet, and gitleaks` step — see
 >    [Enforcement](#enforcement-hook--ci) below.
 > 3. **Use the patterns.** Copy a `template-*.md` pattern for each new test, and
 >    add a [traceability](traceability-template.md) row so every test names what it
@@ -116,7 +116,7 @@ wired, cheap-first, into two layers:
   then integration, and, if wanted, an end-to-end smoke subset) and a fast security
   step before a commit is recorded.
 - The [CI workflows](../ci/) run the whole ladder plus the long-running checks —
-  E2E and the full [security scan](security-checklist.md) behind `‹security scanner›`.
+  E2E and the full [security scan](security-checklist.md) behind `govulncheck v1.8.0, go vet, and gitleaks`.
 
 Both are inert until the `‹…›` steps are set for the Go toolchain. This mirrors how the
 [ADR and PRD linters](../engineering-discipline.md#testing) are already wired.

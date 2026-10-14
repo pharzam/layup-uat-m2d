@@ -7,7 +7,7 @@ stable as it grows, sitting alongside the [test levels](test-levels.md) — ever
 rule below applies within a level and across all of them.
 
 > **How to set up this file.** The rules are the reusable content — keep them.
-> Set `‹test timeout›` to tally's real number, and use the
+> Set `-timeout 10m` to tally's real number, and use the
 > checklist as a gate whenever the suite is reviewed or extended. Remove this note
 > once that is done.
 
@@ -50,7 +50,7 @@ endpoint answered that day.
 **Rule:** keep the cheap [test levels](test-levels.md) in the
 [commit hook](../../.githooks/pre-commit) and push the slow ones to
 [CI](../ci/); every test — and the hook's whole run — stays within
-`‹test timeout›`.
+`-timeout 10m`.
 
 **Why it matters:** a hook that takes minutes gets skipped or disabled, which
 throws away the fast local feedback the ladder exists to give. A CI run with no
@@ -90,7 +90,7 @@ contains a fixed wait/sleep instead of waiting on the actual condition it needs.
   still passes.
 - [ ] Every test is deterministic — no unmocked clock, network, or randomness
   reaches it.
-- [ ] Every test, and the hook's whole run, fits within `‹test timeout›`; cheap
+- [ ] Every test, and the hook's whole run, fits within `-timeout 10m`; cheap
   levels run in the hook, slow ones in CI.
 - [ ] Every test is tagged by [level](test-levels.md) (unit/integration/E2E) so
   one level can run on its own.

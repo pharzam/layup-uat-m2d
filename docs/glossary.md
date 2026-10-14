@@ -21,7 +21,7 @@ Each entry is a row in a table:
 
 | Term | Abbr. | Description | Example |
 |------|-------|-------------|---------|
-| `‹term›` | `‹abbr or —›` | `‹one or two sentences. State what it is and why it matters here.›` | `‹a concrete instance that makes it real›` |
+| `<term>` | `<abbr or ->` | `<one or two sentences: what it is and why it matters here>` | `<a concrete instance that makes it real>` |
 
 Two rules keep the glossary earning its place:
 
@@ -119,14 +119,14 @@ These are the terms of the problem statement, with the fact that supports each o
 | Mebibyte | `MiB` | 1,048,576 bytes (1,024 KiB). The performance reference file is 10 MiB of ASCII text with lines of about 80 characters (F-0001#9). Collision to watch for: not 1,000,000 bytes. | The reference file of F-0001#9 is 10 MiB. |
 | Gibibyte | `GiB` | 1,073,741,824 bytes (1,024 MiB). A unit larger than the reference file, named so that sizes of large inputs use one binary scale. Collision to watch for: not 1,000,000,000 bytes. | A file of 1 GiB is streamed in 64 KiB buffers, not read whole (F-0001#11). |
 
-## 1. `‹Domain area one›`
+## 1. `The count model`
 
 | Term | Abbr. | Description | Example |
 |------|-------|-------------|---------|
-| `‹term›` | `‹—›` | `‹definition›` | `‹example›` |
+| `<term>` | `<abbr or ->` | `<definition>` | `<example>` |
 
-## 2. `‹Domain area two›`
+## 2. `Input and errors`
 
 | Term | Abbr. | Description | Example |
 |------|-------|-------------|---------|
-| `‹term›` | `‹—›` | `‹definition›` | `‹example›` |
+| `<term>` | `<abbr or ->` | `<definition>` | `<example>` |

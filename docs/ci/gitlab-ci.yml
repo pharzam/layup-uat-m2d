@@ -58,29 +58,29 @@ mr-link:                   # R1 — the MR description must link an issue
 
 lint:
   stage: check
-  image: "‹your toolchain image›"
+  image: "golang:1.26"
   script:
-    - "‹lint command, e.g. a formatter --check plus a linter›"
+    - "test -z "$(gofmt -l .)" && go vet ./..."
 
 tests:
   stage: check
-  image: "‹your toolchain image›"
+  image: "golang:1.26"
   # The test ladder, cheap → expensive (see docs/tests/test-levels.md). The hook
   # runs the cheap levels; CI runs the whole ladder. Fill each ‹…› for your stack.
   script:
-    - "‹unit test command›"
-    - "‹integration test command›"
-    - "‹end-to-end test command›"   # long-running — bounded by ‹test timeout›
+    - "go test ./..."
+    - "go test -tags=integration ./..."
+    - "go test -tags=e2e ./..."   # long-running — bounded by -timeout 10m
 
 security:                  # secret, dependency, and static-analysis scans
   stage: check
-  image: "‹security scanner image›"
+  image: "golang:1.26"
   variables:
     GIT_DEPTH: 0           # full history, so the scan sees every commit
-  # Each script line takes its own ‹security test command›, or fill all three
-  # with one multi-scan command; ‹security scanner› names the tool (image below).
+  # Each script line takes its own go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact, or fill all three
+  # with one multi-scan command; govulncheck v1.8.0, go vet, and gitleaks names the tool (image below).
   # See docs/tests/security-checklist.md for the checks and pass conditions.
   script:
-    - "‹security test command›"   # secret scan
-    - "‹security test command›"   # dependency scan
-    - "‹security test command›"   # static analysis
+    - "go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact"   # secret scan
+    - "go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact"   # dependency scan
+    - "go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact"   # static analysis

@@ -49,7 +49,7 @@ When it fails, the fault is in that one component, not somewhere across a chain.
 Unit tests touch no file, network, or clock, so they are fast and deterministic
 and run first, on every commit.
 
-- **Command:** `‹unit test command›`
+- **Command:** `go test ./...`
 - **Where:** the commit hook and CI.
 - **Rule:** every component has at least one unit test (see
   [`template-unit.md`](template-unit.md)).
@@ -61,7 +61,7 @@ real interface or workflow** — the seams a unit test stubs out. It uses the re
 collaborator (a real datastore, a real adapter) rather than a stand-in, so it is
 slower than a unit test and runs after it.
 
-- **Command:** `‹integration test command›`
+- **Command:** `go test -tags=integration ./...`
 - **Where:** CI in full; a fast subset may run in the hook.
 - **Rule:** every interface or workflow has an integration test (see
   [`template-integration.md`](template-integration.md)).
@@ -73,8 +73,8 @@ to back, the way a real user or caller would. It is the most expensive automated
 level, so it usually runs in CI rather than the commit hook; a tiny smoke subset
 may run locally to prove the wiring.
 
-- **Command:** `‹end-to-end test command›`
-- **Timeout:** `‹test timeout›` — an E2E test that hangs must fail, not stall the
+- **Command:** `go test -tags=e2e ./...`
+- **Timeout:** `-timeout 10m` — an E2E test that hangs must fail, not stall the
   pipeline.
 - **Where:** CI (and, if wanted, a smoke subset in the hook).
 - **Rule:** every user-facing scenario has an E2E test (see
@@ -114,9 +114,9 @@ Security checks are not a fourth rung but a parallel track that runs at hook and
 CI time — a secret scan, a dependency scan, and static analysis at minimum. They
 have their own command placeholder and their own checklist:
 
-- **Command:** `‹security test command›` runs the scans — a fast subset in the
+- **Command:** `go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact` runs the scans — a fast subset in the
   [hook](../../.githooks/pre-commit), the full set in [CI](../ci/) — and
-  `‹security scanner›` names the tool it drives.
+  `govulncheck v1.8.0, go vet, and gitleaks` names the tool it drives.
 - **Checklist:** [`security-checklist.md`](security-checklist.md).
 
 ## The placeholders this section uses
@@ -125,10 +125,10 @@ Set these once, here, and every pattern in this section inherits them:
 
 | Placeholder | Meaning |
 |-------------|---------|
-| `‹unit test command›` | Run the unit level. |
-| `‹integration test command›` | Run the integration level. |
-| `‹end-to-end test command›` | Run the E2E level. |
-| `‹security test command›` | Run the security scan step. |
-| `‹test timeout›` | The per-test (or per-suite) time limit before a hang is a failure. |
-| `‹test directory›` | Where product tests live — the root [`tests/`](../../tests/) drop-in, or the Go toolchain's convention. |
-| `‹security scanner›` | The tool that runs the security checks (secret scan, dependency scan, static analysis). |
+| `go test ./...` | Run the unit level. |
+| `go test -tags=integration ./...` | Run the integration level. |
+| `go test -tags=e2e ./...` | Run the E2E level. |
+| `go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact` | Run the security scan step. |
+| `-timeout 10m` | The per-test (or per-suite) time limit before a hang is a failure. |
+| `*_test.go beside the code; root tests/ for end-to-end fixtures` | Where product tests live — the root [`tests/`](../../tests/) drop-in, or the Go toolchain's convention. |
+| `govulncheck v1.8.0, go vet, and gitleaks` | The tool that runs the security checks (secret scan, dependency scan, static analysis). |
