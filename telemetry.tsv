@@ -1,0 +1,2 @@
+session	task	requirements	role	harness	model	billing	start	first_output	end	latency_s	duration_s	tokens_in	tokens_out	tokens_cache	tokens_status	tokens_reason	money	currency	money_status	price
+S-1d0b6100	T-6a3d	—	probe	claude	claude-sonnet-5-5	subscription	2026-10-14T13:34:45Z	2026-10-14T13:34:48Z	2026-10-14T13:34:53Z	3	8	4	349	41409	observed	—	—	—	unknown	—
