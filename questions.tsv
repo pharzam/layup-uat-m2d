@@ -168,153 +168,153 @@ Q-166	setup	M-8dc743c2	operator	before-delivery	setup	—	—	the value of ‹se
 Q-167	setup	M-6f558ed8	operator	before-delivery	setup	—	—	the value of ‹test directory› at docs/tests/test-levels.md:133	2026-10-14T13:42:15Z	S-4a83270c	2026-10-14T17:09:33Z	open
 Q-168	setup	M-309f9c8f	operator	before-delivery	setup	—	—	the value of ‹test directory› at tests/README.md:7	2026-10-14T13:42:15Z	S-4a83270c	2026-10-14T17:09:33Z	open
 Q-169	setup	M-b0381356	operator	before-delivery	setup	—	—	the value of ‹test > directory› at tests/README.md:34	2026-10-14T13:42:15Z	S-4a83270c	2026-10-14T17:09:33Z	open
-Q-170	follow-up	Q-016	operator	before-delivery	follow-up	—	—	the value of ‹lint› at .githooks/README.md:34	2026-10-14T17:10:49Z	layup run	—	asked
-Q-171	follow-up	Q-017	operator	before-delivery	follow-up	—	—	the value of ‹lint command, e.g. a formatter --check plus a linter› at .githooks/pre-commit:119	2026-10-14T17:10:49Z	layup run	—	asked
-Q-172	follow-up	Q-018	operator	before-delivery	follow-up	—	—	the value of ‹your-linter› at .githooks/pre-commit:120	2026-10-14T17:10:49Z	layup run	—	asked
-Q-173	follow-up	Q-019	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at .githooks/pre-commit:124	2026-10-14T17:10:49Z	layup run	—	asked
-Q-174	follow-up	Q-020	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at .githooks/pre-commit:125	2026-10-14T17:10:49Z	layup run	—	asked
-Q-175	follow-up	Q-021	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at .githooks/pre-commit:126	2026-10-14T17:10:49Z	layup run	—	asked
-Q-176	follow-up	Q-022	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at .githooks/pre-commit:130	2026-10-14T17:10:49Z	layup run	—	asked
-Q-177	follow-up	Q-023	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at .githooks/pre-commit:131	2026-10-14T17:10:49Z	layup run	—	asked
-Q-178	follow-up	Q-024	operator	before-delivery	follow-up	—	—	the value of ‹worktree dir› at AGENTS.md:104	2026-10-14T17:10:49Z	layup run	—	asked
-Q-179	follow-up	Q-025	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/ci/README.md:54	2026-10-14T17:10:49Z	layup run	—	asked
-Q-180	follow-up	Q-026	operator	before-delivery	follow-up	—	—	the value of ‹owner› at docs/ci/README.md:105	2026-10-14T17:10:49Z	layup run	—	asked
-Q-181	follow-up	Q-027	operator	before-delivery	follow-up	—	—	the value of ‹repo› at docs/ci/README.md:105	2026-10-14T17:10:49Z	layup run	—	asked
-Q-182	follow-up	Q-028	operator	before-delivery	follow-up	—	—	the value of ‹default branch› at docs/ci/README.md:105	2026-10-14T17:10:49Z	layup run	—	asked
-Q-183	follow-up	Q-029	operator	before-delivery	follow-up	—	—	the value of ‹the setting under which a failing pipeline blocks the merge, and the command that sets it› at docs/ci/README.md:150	2026-10-14T17:10:49Z	layup run	—	asked
-Q-184	follow-up	Q-030	operator	before-delivery	follow-up	—	—	the value of ‹the setting under which a failing pipeline blocks the merge› at docs/ci/README.md:207	2026-10-14T17:10:49Z	layup run	—	asked
-Q-185	follow-up	Q-031	operator	before-delivery	follow-up	—	—	the value of ‹your linter/formatter› at docs/ci/README.md:216	2026-10-14T17:10:49Z	layup run	—	asked
-Q-186	follow-up	Q-032	operator	before-delivery	follow-up	—	—	the value of ‹default branch, e.g. main› at docs/ci/github-actions-ci.yml:20	2026-10-14T17:10:49Z	layup run	—	asked
-Q-187	follow-up	Q-033	operator	before-delivery	follow-up	—	—	the value of ‹your linter/formatter› at docs/ci/github-actions-ci.yml:73	2026-10-14T17:10:49Z	layup run	—	asked
-Q-188	follow-up	Q-035	operator	before-delivery	follow-up	—	—	the value of ‹lint command, e.g. a formatter --check plus a linter› at docs/ci/github-actions-ci.yml:78	2026-10-14T17:10:49Z	layup run	—	asked
-Q-189	follow-up	Q-036	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/ci/github-actions-ci.yml:89	2026-10-14T17:10:49Z	layup run	—	asked
-Q-190	follow-up	Q-037	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/ci/github-actions-ci.yml:91	2026-10-14T17:10:49Z	layup run	—	asked
-Q-191	follow-up	Q-038	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/ci/github-actions-ci.yml:93	2026-10-14T17:10:49Z	layup run	—	asked
-Q-192	follow-up	Q-039	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/ci/github-actions-ci.yml:93	2026-10-14T17:10:49Z	layup run	—	asked
-Q-193	follow-up	Q-040	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/ci/github-actions-ci.yml:96	2026-10-14T17:10:49Z	layup run	—	asked
-Q-194	follow-up	Q-041	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/ci/github-actions-ci.yml:101	2026-10-14T17:10:49Z	layup run	—	asked
-Q-195	follow-up	Q-042	operator	before-delivery	follow-up	—	—	the value of ‹your toolchain image› at docs/ci/gitlab-ci.yml:61	2026-10-14T17:10:49Z	layup run	—	asked
-Q-196	follow-up	Q-043	operator	before-delivery	follow-up	—	—	the value of ‹lint command, e.g. a formatter --check plus a linter› at docs/ci/gitlab-ci.yml:63	2026-10-14T17:10:49Z	layup run	—	asked
-Q-197	follow-up	Q-044	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/ci/gitlab-ci.yml:71	2026-10-14T17:10:49Z	layup run	—	asked
-Q-198	follow-up	Q-045	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/ci/gitlab-ci.yml:72	2026-10-14T17:10:49Z	layup run	—	asked
-Q-199	follow-up	Q-046	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/ci/gitlab-ci.yml:73	2026-10-14T17:10:49Z	layup run	—	asked
-Q-200	follow-up	Q-047	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/ci/gitlab-ci.yml:73	2026-10-14T17:10:49Z	layup run	—	asked
-Q-201	follow-up	Q-048	operator	before-delivery	follow-up	—	—	the value of ‹security scanner image› at docs/ci/gitlab-ci.yml:77	2026-10-14T17:10:49Z	layup run	—	asked
-Q-202	follow-up	Q-049	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/ci/gitlab-ci.yml:80	2026-10-14T17:10:49Z	layup run	—	asked
-Q-203	follow-up	Q-050	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/ci/gitlab-ci.yml:81	2026-10-14T17:10:49Z	layup run	—	asked
-Q-204	follow-up	Q-052	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/engineering-discipline.md:65	2026-10-14T17:10:49Z	layup run	—	asked
-Q-205	follow-up	Q-053	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/engineering-discipline.md:65	2026-10-14T17:10:49Z	layup run	—	asked
-Q-206	follow-up	Q-054	operator	before-delivery	follow-up	—	—	the value of ‹evidence store› at docs/engineering-discipline.md:67	2026-10-14T17:10:49Z	layup run	—	asked
-Q-207	follow-up	Q-055	operator	before-delivery	follow-up	—	—	the value of ‹task-ID scheme› at docs/engineering-discipline.md:69	2026-10-14T17:10:49Z	layup run	—	asked
-Q-208	follow-up	Q-056	operator	before-delivery	follow-up	—	—	the value of ‹worktree dir› at docs/engineering-discipline.md:71	2026-10-14T17:10:49Z	layup run	—	asked
-Q-209	follow-up	Q-057	operator	before-delivery	follow-up	—	—	the value of ‹lint› at docs/engineering-discipline.md:85	2026-10-14T17:10:49Z	layup run	—	asked
-Q-210	follow-up	Q-058	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/engineering-discipline.md:87	2026-10-14T17:10:49Z	layup run	—	asked
-Q-211	follow-up	Q-059	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/engineering-discipline.md:88	2026-10-14T17:10:49Z	layup run	—	asked
-Q-212	follow-up	Q-060	operator	before-delivery	follow-up	—	—	the value of ‹your project treats as panel-worthy› at docs/engineering-discipline.md:219	2026-10-14T17:10:49Z	layup run	—	asked
-Q-213	follow-up	Q-061	operator	before-delivery	follow-up	—	—	the value of ‹name your reasoning-tier models› at docs/engineering-discipline.md:232	2026-10-14T17:10:49Z	layup run	—	asked
-Q-214	follow-up	Q-062	operator	before-delivery	follow-up	—	—	the value of ‹name your execution-tier models› at docs/engineering-discipline.md:233	2026-10-14T17:10:49Z	layup run	—	asked
-Q-215	follow-up	Q-063	operator	before-delivery	follow-up	—	—	the value of ‹name the failure modes that hurt you most,   for example data leakage, race conditions, off-by-one, unhandled errors› at docs/engineering-discipline.md:278	2026-10-14T17:10:49Z	layup run	—	asked
-Q-216	follow-up	Q-064	operator	before-delivery	follow-up	—	—	the value of ‹task-ID› at docs/engineering-discipline.md:601	2026-10-14T17:10:49Z	layup run	—	asked
-Q-217	follow-up	Q-065	operator	before-delivery	follow-up	—	—	the value of ‹for example money in currency, time in hours, counts such as "about 996 times in 1,000" rather than a percentage of a percentage› at docs/engineering-discipline.md:651	2026-10-14T17:10:49Z	layup run	—	asked
-Q-218	follow-up	Q-066	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/engineering-discipline.md:753	2026-10-14T17:10:49Z	layup run	—	asked
-Q-219	follow-up	Q-067	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/engineering-discipline.md:754	2026-10-14T17:10:49Z	layup run	—	asked
-Q-220	follow-up	Q-068	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at docs/engineering-discipline.md:754	2026-10-14T17:10:49Z	layup run	—	asked
-Q-221	follow-up	Q-069	operator	before-delivery	follow-up	—	—	the value of ‹how the harness reports model, effort, tokens and elapsed time› at docs/engineering-discipline.md:972	2026-10-14T17:10:49Z	layup run	—	asked
-Q-222	follow-up	Q-070	operator	before-delivery	follow-up	—	—	the value of ‹the plan and its review› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	—	asked
-Q-223	follow-up	Q-071	operator	before-delivery	follow-up	—	—	the value of ‹model› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	—	asked
-Q-224	follow-up	Q-072	operator	before-delivery	follow-up	—	—	the value of ‹effort› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	—	asked
-Q-225	follow-up	Q-073	operator	before-delivery	follow-up	—	—	the value of ‹tokens› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	—	asked
-Q-226	follow-up	Q-074	operator	before-delivery	follow-up	—	—	the value of ‹wall-clock› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	—	asked
-Q-227	follow-up	Q-075	operator	before-delivery	follow-up	—	—	the value of ‹the decay review rounds› at docs/engineering-discipline.md:980	2026-10-14T17:10:49Z	layup run	—	asked
-Q-228	follow-up	Q-076	operator	before-delivery	follow-up	—	—	the value of ‹writing the tests and the code› at docs/engineering-discipline.md:981	2026-10-14T17:10:49Z	layup run	—	asked
-Q-229	follow-up	Q-077	operator	before-delivery	follow-up	—	—	the value of ‹isolate, guardrails, docs, close-out› at docs/engineering-discipline.md:982	2026-10-14T17:10:49Z	layup run	—	asked
-Q-230	follow-up	Q-078	operator	before-delivery	follow-up	—	—	the value of ‹model / `not applicable`› at docs/engineering-discipline.md:982	2026-10-14T17:10:49Z	layup run	—	asked
-Q-231	follow-up	Q-079	operator	before-delivery	follow-up	—	—	the value of ‹sum› at docs/engineering-discipline.md:983	2026-10-14T17:10:49Z	layup run	—	asked
-Q-232	follow-up	Q-080	operator	before-delivery	follow-up	—	—	the value of ‹term› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	—	asked
-Q-233	follow-up	Q-081	operator	before-delivery	follow-up	—	—	the value of ‹abbr or —› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	—	asked
-Q-234	follow-up	Q-082	operator	before-delivery	follow-up	—	—	the value of ‹one or two sentences. State what it is and why it matters here.› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	—	asked
-Q-235	follow-up	Q-083	operator	before-delivery	follow-up	—	—	the value of ‹a concrete instance that makes it real› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	—	asked
-Q-236	follow-up	Q-084	operator	before-delivery	follow-up	—	—	the value of ‹Domain area one› at docs/glossary.md:103	2026-10-14T17:10:49Z	layup run	—	asked
-Q-237	follow-up	Q-085	operator	before-delivery	follow-up	—	—	the value of ‹—› at docs/glossary.md:107	2026-10-14T17:10:49Z	layup run	—	asked
-Q-238	follow-up	Q-086	operator	before-delivery	follow-up	—	—	the value of ‹definition› at docs/glossary.md:107	2026-10-14T17:10:49Z	layup run	—	asked
-Q-239	follow-up	Q-087	operator	before-delivery	follow-up	—	—	the value of ‹example› at docs/glossary.md:107	2026-10-14T17:10:49Z	layup run	—	asked
-Q-240	follow-up	Q-088	operator	before-delivery	follow-up	—	—	the value of ‹Domain area two› at docs/glossary.md:109	2026-10-14T17:10:49Z	layup run	—	asked
-Q-241	follow-up	Q-089	operator	before-delivery	follow-up	—	—	the value of ‹State, in one plain sentence, the single worst mistake this project can make and what stops it — for example: "It is easy to build a result that looks great and is wrong; the defense is to write the pass/fail numbers down before the experiment runs."› at docs/guardrails.md:19	2026-10-14T17:10:49Z	layup run	—	asked
-Q-242	follow-up	Q-090	operator	before-delivery	follow-up	—	—	the value of ‹list the decisions that need a frozen rule —   thresholds, acceptance bars, go / no-go criteria› at docs/guardrails.md:29	2026-10-14T17:10:49Z	layup run	—	asked
-Q-243	follow-up	Q-091	operator	before-delivery	follow-up	—	—	the value of ‹where a frozen rule is recorded so it provably   predates the result — for example a ticket, an intent record, a committed   config› at docs/guardrails.md:31	2026-10-14T17:10:49Z	layup run	—	asked
-Q-244	follow-up	Q-092	operator	before-delivery	follow-up	—	—	the value of ‹List the failure modes that have actually hurt this project or its field. For each: the trap, why it is silent, and the check that catches it. Examples of the kind of thing that goes here:› at docs/guardrails.md:41	2026-10-14T17:10:49Z	layup run	—	asked
-Q-245	follow-up	Q-093	operator	before-delivery	follow-up	—	—	the value of ‹pitfall 1 — e.g. a data / input leak: future or out-of-scope information   reaching the code that must not see it› at docs/guardrails.md:45	2026-10-14T17:10:49Z	layup run	—	asked
-Q-246	follow-up	Q-094	operator	before-delivery	follow-up	—	—	the value of ‹pitfall 2 — e.g. a measurement that looks strong for the wrong reason› at docs/guardrails.md:47	2026-10-14T17:10:49Z	layup run	—	asked
-Q-247	follow-up	Q-095	operator	before-delivery	follow-up	—	—	the value of ‹pitfall 3 — e.g. an environment or scale difference between test and   production› at docs/guardrails.md:48	2026-10-14T17:10:49Z	layup run	—	asked
-Q-248	follow-up	Q-096	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/guardrails.md:165	2026-10-14T17:10:49Z	layup run	—	asked
-Q-249	follow-up	Q-097	operator	before-delivery	follow-up	—	—	the value of ‹cheap smoke check› at docs/guardrails.md:233	2026-10-14T17:10:49Z	layup run	—	asked
-Q-250	follow-up	Q-098	operator	before-delivery	follow-up	—	—	the value of ‹what "clean" looks like› at docs/guardrails.md:233	2026-10-14T17:10:49Z	layup run	—	asked
-Q-251	follow-up	Q-099	operator	before-delivery	follow-up	—	—	the value of ‹stronger check› at docs/guardrails.md:234	2026-10-14T17:10:49Z	layup run	—	asked
-Q-252	follow-up	Q-100	operator	before-delivery	follow-up	—	—	the value of ‹pass condition› at docs/guardrails.md:234	2026-10-14T17:10:49Z	layup run	—	asked
-Q-253	follow-up	Q-101	operator	before-delivery	follow-up	—	—	the value of ‹cost› at docs/guardrails.md:234	2026-10-14T17:10:49Z	layup run	—	asked
-Q-254	follow-up	Q-102	operator	before-delivery	follow-up	—	—	the value of ‹end-of-work check› at docs/guardrails.md:235	2026-10-14T17:10:49Z	layup run	—	asked
-Q-255	follow-up	Q-103	operator	before-delivery	follow-up	—	—	the value of ‹which checks catch which class of bug; which are cheap enough to wire into CI; which run once per change of a given kind› at docs/guardrails.md:237	2026-10-14T17:10:49Z	layup run	—	asked
-Q-256	follow-up	Q-104	operator	before-delivery	follow-up	—	—	the value of ‹your record of record› at docs/guardrails.md:258	2026-10-14T17:10:49Z	layup run	—	asked
-Q-257	follow-up	Q-105	operator	before-delivery	follow-up	—	—	the value of ‹Link the references that justify your thresholds and checks, so a later reader can see they are not arbitrary.› at docs/guardrails.md:264	2026-10-14T17:10:49Z	layup run	—	asked
-Q-258	follow-up	Q-106	operator	before-delivery	follow-up	—	—	the value of ‹task-ID scheme› at docs/issue-workflow.md:18	2026-10-14T17:10:49Z	layup run	—	asked
-Q-259	follow-up	Q-107	operator	before-delivery	follow-up	—	—	the value of ‹require a PR before merge› at docs/issue-workflow.md:239	2026-10-14T17:10:49Z	layup run	—	asked
-Q-260	follow-up	Q-108	operator	before-delivery	follow-up	—	—	the value of ‹require the check before merge› at docs/issue-workflow.md:243	2026-10-14T17:10:49Z	layup run	—	asked
-Q-261	follow-up	Q-109	operator	before-delivery	follow-up	—	—	the value of ‹add a coverage gate› at docs/issue-workflow.md:244	2026-10-14T17:10:49Z	layup run	—	asked
-Q-262	follow-up	Q-111	operator	before-delivery	follow-up	—	—	the value of ‹The vocabulary a reader hits in every other document, in dependency order — each term building on the last, not alphabetical. This is the same vocabulary as [glossary.md](glossary.md), but taught in prose, because definitions in isolation are hard to absorb. Use small diagrams and worked examples where they help.› at docs/onboarding-for-engineers.md:26	2026-10-14T17:10:49Z	layup run	—	asked
-Q-263	follow-up	Q-112	operator	before-delivery	follow-up	—	—	the value of ‹First concept› at docs/onboarding-for-engineers.md:31	2026-10-14T17:10:49Z	layup run	—	asked
-Q-264	follow-up	Q-113	operator	before-delivery	follow-up	—	—	the value of ‹Explain it. Prefer a concrete example or a small ASCII diagram.› at docs/onboarding-for-engineers.md:33	2026-10-14T17:10:49Z	layup run	—	asked
-Q-265	follow-up	Q-114	operator	before-delivery	follow-up	—	—	the value of ‹Second concept, building on the first› at docs/onboarding-for-engineers.md:35	2026-10-14T17:10:49Z	layup run	—	asked
-Q-266	follow-up	Q-115	operator	before-delivery	follow-up	—	—	the value of ‹The core mechanism, concretely. If there is one central design — a main loop, a pipeline, a state machine — draw it and walk through it once.› at docs/onboarding-for-engineers.md:41	2026-10-14T17:10:49Z	layup run	—	asked
-Q-267	follow-up	Q-116	operator	before-delivery	follow-up	—	—	the value of ‹The one or two numbers, or the one hard constraint, that make this project difficult. State the consequence in units the reader already knows. This is the section that stops a new engineer from proposing the obvious thing that does not work.› at docs/onboarding-for-engineers.md:46	2026-10-14T17:10:49Z	layup run	—	asked
-Q-268	follow-up	Q-117	operator	before-delivery	follow-up	—	—	the value of ‹State the single most important cultural value — the thing that surprises new engineers and that they must not fight. For a research project it might be "we are more afraid of fooling ourselves than of being slow"; for a product it might be something else entirely.› at docs/onboarding-for-engineers.md:55	2026-10-14T17:10:49Z	layup run	—	asked
-Q-269	follow-up	Q-118	operator	before-delivery	follow-up	—	—	the value of ‹non-negotiable 1 — link the guardrail or gate it comes from› at docs/onboarding-for-engineers.md:62	2026-10-14T17:10:49Z	layup run	—	asked
-Q-270	follow-up	Q-119	operator	before-delivery	follow-up	—	—	the value of ‹non-negotiable 2› at docs/onboarding-for-engineers.md:63	2026-10-14T17:10:49Z	layup run	—	asked
-Q-271	follow-up	Q-120	operator	before-delivery	follow-up	—	—	the value of ‹path› at docs/onboarding-for-engineers.md:69	2026-10-14T17:10:49Z	layup run	—	asked
-Q-272	follow-up	Q-121	operator	before-delivery	follow-up	—	—	the value of ‹what lives there› at docs/onboarding-for-engineers.md:69	2026-10-14T17:10:49Z	layup run	—	asked
-Q-273	follow-up	Q-122	operator	before-delivery	follow-up	—	—	the value of ‹A short, honest status: what is built, what is in progress, and what the open question is. Keep this in step with the backlog and the headline numbers above.› at docs/onboarding-for-engineers.md:90	2026-10-14T17:10:49Z	layup run	—	asked
-Q-274	follow-up	Q-123	operator	before-delivery	follow-up	—	—	the value of ‹slug› at docs/prd/README.md:12	2026-10-14T17:10:49Z	layup run	—	asked
-Q-275	follow-up	Q-125	operator	before-delivery	follow-up	—	—	the value of ‹default branch› at docs/tasks/T-2w8k.md:16	2026-10-14T17:10:49Z	layup run	—	asked
-Q-276	follow-up	Q-126	operator	before-delivery	follow-up	—	—	the value of ‹task-ID scheme› at docs/tasks/backlog.md:16	2026-10-14T17:10:49Z	layup run	—	asked
-Q-277	follow-up	Q-127	operator	before-delivery	follow-up	—	—	the value of ‹State your exact scheme here — for example: "T-" plus four characters drawn from 0-9 a-z minus the ambiguous i l o u; before using an ID, confirm tasks/<id>.md does not already exist."› at docs/tasks/backlog.md:20	2026-10-14T17:10:49Z	layup run	—	asked
-Q-278	follow-up	Q-128	operator	before-delivery	follow-up	—	—	the value of ‹ID› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	—	asked
-Q-279	follow-up	Q-129	operator	before-delivery	follow-up	—	—	the value of ‹one-sentence summary› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	—	asked
-Q-280	follow-up	Q-130	operator	before-delivery	follow-up	—	—	the value of ‹ADR or doc link› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	—	asked
-Q-281	follow-up	Q-131	operator	before-delivery	follow-up	—	—	the value of ‹id› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	—	asked
-Q-282	follow-up	Q-132	operator	before-delivery	follow-up	—	—	the value of ‹ID› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	—	asked
-Q-283	follow-up	Q-133	operator	before-delivery	follow-up	—	—	the value of ‹one-sentence summary of what the task found or delivered› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	—	asked
-Q-284	follow-up	Q-134	operator	before-delivery	follow-up	—	—	the value of ‹link› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	—	asked
-Q-285	follow-up	Q-135	operator	before-delivery	follow-up	—	—	the value of ‹id› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	—	asked
-Q-286	follow-up	Q-136	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/tests/README.md:23	2026-10-14T17:10:49Z	layup run	—	asked
-Q-287	follow-up	Q-137	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/tests/README.md:23	2026-10-14T17:10:49Z	layup run	—	asked
-Q-288	follow-up	Q-138	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/tests/README.md:27	2026-10-14T17:10:49Z	layup run	—	asked
-Q-289	follow-up	Q-139	operator	before-delivery	follow-up	—	—	the value of ‹every requirement has a test› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	—	asked
-Q-290	follow-up	Q-140	operator	before-delivery	follow-up	—	—	the value of ‹unit \| integration› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	—	asked
-Q-291	follow-up	Q-141	operator	before-delivery	follow-up	—	—	the value of ‹a REQ/NFR row in the traceability table› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	—	asked
-Q-292	follow-up	Q-142	operator	before-delivery	follow-up	—	—	the value of ‹✓ / ✗› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	—	asked
-Q-293	follow-up	Q-143	operator	before-delivery	follow-up	—	—	the value of ‹every user-facing path has a test› at docs/tests/dod-checklist.md:63	2026-10-14T17:10:49Z	layup run	—	asked
-Q-294	follow-up	Q-144	operator	before-delivery	follow-up	—	—	the value of ‹e2e› at docs/tests/dod-checklist.md:63	2026-10-14T17:10:49Z	layup run	—	asked
-Q-295	follow-up	Q-145	operator	before-delivery	follow-up	—	—	the value of ‹an E2E row per scenario› at docs/tests/dod-checklist.md:63	2026-10-14T17:10:49Z	layup run	—	asked
-Q-296	follow-up	Q-146	operator	before-delivery	follow-up	—	—	the value of ‹a delivered feature is signed off by a person› at docs/tests/dod-checklist.md:64	2026-10-14T17:10:49Z	layup run	—	asked
-Q-297	follow-up	Q-147	operator	before-delivery	follow-up	—	—	the value of ‹uat› at docs/tests/dod-checklist.md:64	2026-10-14T17:10:49Z	layup run	—	asked
-Q-298	follow-up	Q-148	operator	before-delivery	follow-up	—	—	the value of ‹a UAT row, human-checked› at docs/tests/dod-checklist.md:64	2026-10-14T17:10:49Z	layup run	—	asked
-Q-299	follow-up	Q-149	operator	before-delivery	follow-up	—	—	the value of ‹a bug fix has a test that fails on the old code› at docs/tests/dod-checklist.md:65	2026-10-14T17:10:49Z	layup run	—	asked
-Q-300	follow-up	Q-150	operator	before-delivery	follow-up	—	—	the value of ‹a row citing the bug's task ID› at docs/tests/dod-checklist.md:65	2026-10-14T17:10:49Z	layup run	—	asked
-Q-301	follow-up	Q-151	operator	before-delivery	follow-up	—	—	the value of ‹a known pitfall from guardrails.md is defended against› at docs/tests/dod-checklist.md:66	2026-10-14T17:10:49Z	layup run	—	asked
-Q-302	follow-up	Q-152	operator	before-delivery	follow-up	—	—	the value of ‹unit \| integration \| e2e› at docs/tests/dod-checklist.md:66	2026-10-14T17:10:49Z	layup run	—	asked
-Q-303	follow-up	Q-153	operator	before-delivery	follow-up	—	—	the value of ‹a row with a Guardrail cell filled in› at docs/tests/dod-checklist.md:66	2026-10-14T17:10:49Z	layup run	—	asked
-Q-304	follow-up	Q-154	operator	before-delivery	follow-up	—	—	the value of ‹the review round citing commit, reviewer, lens and verdict› at docs/tests/dod-checklist.md:67	2026-10-14T17:10:49Z	layup run	—	asked
-Q-305	follow-up	Q-155	operator	before-delivery	follow-up	—	—	the value of ‹unit test > command› at docs/tests/example-fact-to-test.md:17	2026-10-14T17:10:49Z	layup run	—	asked
-Q-306	follow-up	Q-156	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/tests/example-fact-to-test.md:70	2026-10-14T17:10:49Z	layup run	—	asked
-Q-307	follow-up	Q-157	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at docs/tests/example-fact-to-test.md:79	2026-10-14T17:10:49Z	layup run	—	asked
-Q-308	follow-up	Q-158	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/tests/scaling-checklist.md:10	2026-10-14T17:10:49Z	layup run	—	asked
-Q-309	follow-up	Q-159	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/tests/security-checklist.md:9	2026-10-14T17:10:49Z	layup run	—	asked
-Q-310	follow-up	Q-160	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/tests/security-checklist.md:10	2026-10-14T17:10:49Z	layup run	—	asked
-Q-311	follow-up	Q-161	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/tests/test-levels.md:52	2026-10-14T17:10:49Z	layup run	—	asked
-Q-312	follow-up	Q-162	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/tests/test-levels.md:64	2026-10-14T17:10:49Z	layup run	—	asked
-Q-313	follow-up	Q-163	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/tests/test-levels.md:76	2026-10-14T17:10:49Z	layup run	—	asked
-Q-314	follow-up	Q-164	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/tests/test-levels.md:77	2026-10-14T17:10:49Z	layup run	—	asked
-Q-315	follow-up	Q-165	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/tests/test-levels.md:117	2026-10-14T17:10:49Z	layup run	—	asked
-Q-316	follow-up	Q-166	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/tests/test-levels.md:119	2026-10-14T17:10:49Z	layup run	—	asked
-Q-317	follow-up	Q-167	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at docs/tests/test-levels.md:133	2026-10-14T17:10:49Z	layup run	—	asked
-Q-318	follow-up	Q-168	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at tests/README.md:7	2026-10-14T17:10:49Z	layup run	—	asked
-Q-319	follow-up	Q-169	operator	before-delivery	follow-up	—	—	the value of ‹test > directory› at tests/README.md:34	2026-10-14T17:10:49Z	layup run	—	asked
+Q-170	follow-up	Q-016	operator	before-delivery	follow-up	—	—	the value of ‹lint› at .githooks/README.md:34	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-171	follow-up	Q-017	operator	before-delivery	follow-up	—	—	the value of ‹lint command, e.g. a formatter --check plus a linter› at .githooks/pre-commit:119	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-172	follow-up	Q-018	operator	before-delivery	follow-up	—	—	the value of ‹your-linter› at .githooks/pre-commit:120	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-173	follow-up	Q-019	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at .githooks/pre-commit:124	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-174	follow-up	Q-020	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at .githooks/pre-commit:125	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-175	follow-up	Q-021	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at .githooks/pre-commit:126	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-176	follow-up	Q-022	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at .githooks/pre-commit:130	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-177	follow-up	Q-023	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at .githooks/pre-commit:131	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-178	follow-up	Q-024	operator	before-delivery	follow-up	—	—	the value of ‹worktree dir› at AGENTS.md:104	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-179	follow-up	Q-025	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/ci/README.md:54	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-180	follow-up	Q-026	operator	before-delivery	follow-up	—	—	the value of ‹owner› at docs/ci/README.md:105	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-181	follow-up	Q-027	operator	before-delivery	follow-up	—	—	the value of ‹repo› at docs/ci/README.md:105	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-182	follow-up	Q-028	operator	before-delivery	follow-up	—	—	the value of ‹default branch› at docs/ci/README.md:105	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-183	follow-up	Q-029	operator	before-delivery	follow-up	—	—	the value of ‹the setting under which a failing pipeline blocks the merge, and the command that sets it› at docs/ci/README.md:150	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-184	follow-up	Q-030	operator	before-delivery	follow-up	—	—	the value of ‹the setting under which a failing pipeline blocks the merge› at docs/ci/README.md:207	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-185	follow-up	Q-031	operator	before-delivery	follow-up	—	—	the value of ‹your linter/formatter› at docs/ci/README.md:216	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-186	follow-up	Q-032	operator	before-delivery	follow-up	—	—	the value of ‹default branch, e.g. main› at docs/ci/github-actions-ci.yml:20	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-187	follow-up	Q-033	operator	before-delivery	follow-up	—	—	the value of ‹your linter/formatter› at docs/ci/github-actions-ci.yml:73	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-188	follow-up	Q-035	operator	before-delivery	follow-up	—	—	the value of ‹lint command, e.g. a formatter --check plus a linter› at docs/ci/github-actions-ci.yml:78	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-189	follow-up	Q-036	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/ci/github-actions-ci.yml:89	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-190	follow-up	Q-037	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/ci/github-actions-ci.yml:91	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-191	follow-up	Q-038	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/ci/github-actions-ci.yml:93	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-192	follow-up	Q-039	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/ci/github-actions-ci.yml:93	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-193	follow-up	Q-040	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/ci/github-actions-ci.yml:96	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-194	follow-up	Q-041	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/ci/github-actions-ci.yml:101	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-195	follow-up	Q-042	operator	before-delivery	follow-up	—	—	the value of ‹your toolchain image› at docs/ci/gitlab-ci.yml:61	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-196	follow-up	Q-043	operator	before-delivery	follow-up	—	—	the value of ‹lint command, e.g. a formatter --check plus a linter› at docs/ci/gitlab-ci.yml:63	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-197	follow-up	Q-044	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/ci/gitlab-ci.yml:71	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-198	follow-up	Q-045	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/ci/gitlab-ci.yml:72	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-199	follow-up	Q-046	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/ci/gitlab-ci.yml:73	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-200	follow-up	Q-047	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/ci/gitlab-ci.yml:73	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-201	follow-up	Q-048	operator	before-delivery	follow-up	—	—	the value of ‹security scanner image› at docs/ci/gitlab-ci.yml:77	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-202	follow-up	Q-049	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/ci/gitlab-ci.yml:80	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-203	follow-up	Q-050	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/ci/gitlab-ci.yml:81	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-204	follow-up	Q-052	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/engineering-discipline.md:65	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-205	follow-up	Q-053	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/engineering-discipline.md:65	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-206	follow-up	Q-054	operator	before-delivery	follow-up	—	—	the value of ‹evidence store› at docs/engineering-discipline.md:67	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-207	follow-up	Q-055	operator	before-delivery	follow-up	—	—	the value of ‹task-ID scheme› at docs/engineering-discipline.md:69	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-208	follow-up	Q-056	operator	before-delivery	follow-up	—	—	the value of ‹worktree dir› at docs/engineering-discipline.md:71	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-209	follow-up	Q-057	operator	before-delivery	follow-up	—	—	the value of ‹lint› at docs/engineering-discipline.md:85	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-210	follow-up	Q-058	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/engineering-discipline.md:87	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-211	follow-up	Q-059	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/engineering-discipline.md:88	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-212	follow-up	Q-060	operator	before-delivery	follow-up	—	—	the value of ‹your project treats as panel-worthy› at docs/engineering-discipline.md:219	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-213	follow-up	Q-061	operator	before-delivery	follow-up	—	—	the value of ‹name your reasoning-tier models› at docs/engineering-discipline.md:232	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-214	follow-up	Q-062	operator	before-delivery	follow-up	—	—	the value of ‹name your execution-tier models› at docs/engineering-discipline.md:233	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-215	follow-up	Q-063	operator	before-delivery	follow-up	—	—	the value of ‹name the failure modes that hurt you most,   for example data leakage, race conditions, off-by-one, unhandled errors› at docs/engineering-discipline.md:278	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-216	follow-up	Q-064	operator	before-delivery	follow-up	—	—	the value of ‹task-ID› at docs/engineering-discipline.md:601	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-217	follow-up	Q-065	operator	before-delivery	follow-up	—	—	the value of ‹for example money in currency, time in hours, counts such as "about 996 times in 1,000" rather than a percentage of a percentage› at docs/engineering-discipline.md:651	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-218	follow-up	Q-066	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/engineering-discipline.md:753	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-219	follow-up	Q-067	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/engineering-discipline.md:754	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-220	follow-up	Q-068	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at docs/engineering-discipline.md:754	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-221	follow-up	Q-069	operator	before-delivery	follow-up	—	—	the value of ‹how the harness reports model, effort, tokens and elapsed time› at docs/engineering-discipline.md:972	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-222	follow-up	Q-070	operator	before-delivery	follow-up	—	—	the value of ‹the plan and its review› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-223	follow-up	Q-071	operator	before-delivery	follow-up	—	—	the value of ‹model› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-224	follow-up	Q-072	operator	before-delivery	follow-up	—	—	the value of ‹effort› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-225	follow-up	Q-073	operator	before-delivery	follow-up	—	—	the value of ‹tokens› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-226	follow-up	Q-074	operator	before-delivery	follow-up	—	—	the value of ‹wall-clock› at docs/engineering-discipline.md:979	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-227	follow-up	Q-075	operator	before-delivery	follow-up	—	—	the value of ‹the decay review rounds› at docs/engineering-discipline.md:980	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-228	follow-up	Q-076	operator	before-delivery	follow-up	—	—	the value of ‹writing the tests and the code› at docs/engineering-discipline.md:981	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-229	follow-up	Q-077	operator	before-delivery	follow-up	—	—	the value of ‹isolate, guardrails, docs, close-out› at docs/engineering-discipline.md:982	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-230	follow-up	Q-078	operator	before-delivery	follow-up	—	—	the value of ‹model / `not applicable`› at docs/engineering-discipline.md:982	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-231	follow-up	Q-079	operator	before-delivery	follow-up	—	—	the value of ‹sum› at docs/engineering-discipline.md:983	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-232	follow-up	Q-080	operator	before-delivery	follow-up	—	—	the value of ‹term› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-233	follow-up	Q-081	operator	before-delivery	follow-up	—	—	the value of ‹abbr or —› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-234	follow-up	Q-082	operator	before-delivery	follow-up	—	—	the value of ‹one or two sentences. State what it is and why it matters here.› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-235	follow-up	Q-083	operator	before-delivery	follow-up	—	—	the value of ‹a concrete instance that makes it real› at docs/glossary.md:25	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-236	follow-up	Q-084	operator	before-delivery	follow-up	—	—	the value of ‹Domain area one› at docs/glossary.md:103	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-237	follow-up	Q-085	operator	before-delivery	follow-up	—	—	the value of ‹—› at docs/glossary.md:107	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-238	follow-up	Q-086	operator	before-delivery	follow-up	—	—	the value of ‹definition› at docs/glossary.md:107	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-239	follow-up	Q-087	operator	before-delivery	follow-up	—	—	the value of ‹example› at docs/glossary.md:107	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-240	follow-up	Q-088	operator	before-delivery	follow-up	—	—	the value of ‹Domain area two› at docs/glossary.md:109	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-241	follow-up	Q-089	operator	before-delivery	follow-up	—	—	the value of ‹State, in one plain sentence, the single worst mistake this project can make and what stops it — for example: "It is easy to build a result that looks great and is wrong; the defense is to write the pass/fail numbers down before the experiment runs."› at docs/guardrails.md:19	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-242	follow-up	Q-090	operator	before-delivery	follow-up	—	—	the value of ‹list the decisions that need a frozen rule —   thresholds, acceptance bars, go / no-go criteria› at docs/guardrails.md:29	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-243	follow-up	Q-091	operator	before-delivery	follow-up	—	—	the value of ‹where a frozen rule is recorded so it provably   predates the result — for example a ticket, an intent record, a committed   config› at docs/guardrails.md:31	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-244	follow-up	Q-092	operator	before-delivery	follow-up	—	—	the value of ‹List the failure modes that have actually hurt this project or its field. For each: the trap, why it is silent, and the check that catches it. Examples of the kind of thing that goes here:› at docs/guardrails.md:41	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-245	follow-up	Q-093	operator	before-delivery	follow-up	—	—	the value of ‹pitfall 1 — e.g. a data / input leak: future or out-of-scope information   reaching the code that must not see it› at docs/guardrails.md:45	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-246	follow-up	Q-094	operator	before-delivery	follow-up	—	—	the value of ‹pitfall 2 — e.g. a measurement that looks strong for the wrong reason› at docs/guardrails.md:47	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-247	follow-up	Q-095	operator	before-delivery	follow-up	—	—	the value of ‹pitfall 3 — e.g. an environment or scale difference between test and   production› at docs/guardrails.md:48	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-248	follow-up	Q-096	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/guardrails.md:165	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-249	follow-up	Q-097	operator	before-delivery	follow-up	—	—	the value of ‹cheap smoke check› at docs/guardrails.md:233	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-250	follow-up	Q-098	operator	before-delivery	follow-up	—	—	the value of ‹what "clean" looks like› at docs/guardrails.md:233	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-251	follow-up	Q-099	operator	before-delivery	follow-up	—	—	the value of ‹stronger check› at docs/guardrails.md:234	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-252	follow-up	Q-100	operator	before-delivery	follow-up	—	—	the value of ‹pass condition› at docs/guardrails.md:234	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-253	follow-up	Q-101	operator	before-delivery	follow-up	—	—	the value of ‹cost› at docs/guardrails.md:234	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-254	follow-up	Q-102	operator	before-delivery	follow-up	—	—	the value of ‹end-of-work check› at docs/guardrails.md:235	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-255	follow-up	Q-103	operator	before-delivery	follow-up	—	—	the value of ‹which checks catch which class of bug; which are cheap enough to wire into CI; which run once per change of a given kind› at docs/guardrails.md:237	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-256	follow-up	Q-104	operator	before-delivery	follow-up	—	—	the value of ‹your record of record› at docs/guardrails.md:258	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-257	follow-up	Q-105	operator	before-delivery	follow-up	—	—	the value of ‹Link the references that justify your thresholds and checks, so a later reader can see they are not arbitrary.› at docs/guardrails.md:264	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-258	follow-up	Q-106	operator	before-delivery	follow-up	—	—	the value of ‹task-ID scheme› at docs/issue-workflow.md:18	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-259	follow-up	Q-107	operator	before-delivery	follow-up	—	—	the value of ‹require a PR before merge› at docs/issue-workflow.md:239	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-260	follow-up	Q-108	operator	before-delivery	follow-up	—	—	the value of ‹require the check before merge› at docs/issue-workflow.md:243	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-261	follow-up	Q-109	operator	before-delivery	follow-up	—	—	the value of ‹add a coverage gate› at docs/issue-workflow.md:244	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-262	follow-up	Q-111	operator	before-delivery	follow-up	—	—	the value of ‹The vocabulary a reader hits in every other document, in dependency order — each term building on the last, not alphabetical. This is the same vocabulary as [glossary.md](glossary.md), but taught in prose, because definitions in isolation are hard to absorb. Use small diagrams and worked examples where they help.› at docs/onboarding-for-engineers.md:26	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-263	follow-up	Q-112	operator	before-delivery	follow-up	—	—	the value of ‹First concept› at docs/onboarding-for-engineers.md:31	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-264	follow-up	Q-113	operator	before-delivery	follow-up	—	—	the value of ‹Explain it. Prefer a concrete example or a small ASCII diagram.› at docs/onboarding-for-engineers.md:33	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-265	follow-up	Q-114	operator	before-delivery	follow-up	—	—	the value of ‹Second concept, building on the first› at docs/onboarding-for-engineers.md:35	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-266	follow-up	Q-115	operator	before-delivery	follow-up	—	—	the value of ‹The core mechanism, concretely. If there is one central design — a main loop, a pipeline, a state machine — draw it and walk through it once.› at docs/onboarding-for-engineers.md:41	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-267	follow-up	Q-116	operator	before-delivery	follow-up	—	—	the value of ‹The one or two numbers, or the one hard constraint, that make this project difficult. State the consequence in units the reader already knows. This is the section that stops a new engineer from proposing the obvious thing that does not work.› at docs/onboarding-for-engineers.md:46	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-268	follow-up	Q-117	operator	before-delivery	follow-up	—	—	the value of ‹State the single most important cultural value — the thing that surprises new engineers and that they must not fight. For a research project it might be "we are more afraid of fooling ourselves than of being slow"; for a product it might be something else entirely.› at docs/onboarding-for-engineers.md:55	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-269	follow-up	Q-118	operator	before-delivery	follow-up	—	—	the value of ‹non-negotiable 1 — link the guardrail or gate it comes from› at docs/onboarding-for-engineers.md:62	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-270	follow-up	Q-119	operator	before-delivery	follow-up	—	—	the value of ‹non-negotiable 2› at docs/onboarding-for-engineers.md:63	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-271	follow-up	Q-120	operator	before-delivery	follow-up	—	—	the value of ‹path› at docs/onboarding-for-engineers.md:69	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-272	follow-up	Q-121	operator	before-delivery	follow-up	—	—	the value of ‹what lives there› at docs/onboarding-for-engineers.md:69	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-273	follow-up	Q-122	operator	before-delivery	follow-up	—	—	the value of ‹A short, honest status: what is built, what is in progress, and what the open question is. Keep this in step with the backlog and the headline numbers above.› at docs/onboarding-for-engineers.md:90	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-274	follow-up	Q-123	operator	before-delivery	follow-up	—	—	the value of ‹slug› at docs/prd/README.md:12	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-275	follow-up	Q-125	operator	before-delivery	follow-up	—	—	the value of ‹default branch› at docs/tasks/T-2w8k.md:16	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-276	follow-up	Q-126	operator	before-delivery	follow-up	—	—	the value of ‹task-ID scheme› at docs/tasks/backlog.md:16	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-277	follow-up	Q-127	operator	before-delivery	follow-up	—	—	the value of ‹State your exact scheme here — for example: "T-" plus four characters drawn from 0-9 a-z minus the ambiguous i l o u; before using an ID, confirm tasks/<id>.md does not already exist."› at docs/tasks/backlog.md:20	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-278	follow-up	Q-128	operator	before-delivery	follow-up	—	—	the value of ‹ID› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-279	follow-up	Q-129	operator	before-delivery	follow-up	—	—	the value of ‹one-sentence summary› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-280	follow-up	Q-130	operator	before-delivery	follow-up	—	—	the value of ‹ADR or doc link› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-281	follow-up	Q-131	operator	before-delivery	follow-up	—	—	the value of ‹id› at docs/tasks/backlog.md:36	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-282	follow-up	Q-132	operator	before-delivery	follow-up	—	—	the value of ‹ID› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-283	follow-up	Q-133	operator	before-delivery	follow-up	—	—	the value of ‹one-sentence summary of what the task found or delivered› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-284	follow-up	Q-134	operator	before-delivery	follow-up	—	—	the value of ‹link› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-285	follow-up	Q-135	operator	before-delivery	follow-up	—	—	the value of ‹id› at docs/tasks/completed.md:70	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-286	follow-up	Q-136	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/tests/README.md:23	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-287	follow-up	Q-137	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/tests/README.md:23	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-288	follow-up	Q-138	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/tests/README.md:27	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-289	follow-up	Q-139	operator	before-delivery	follow-up	—	—	the value of ‹every requirement has a test› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-290	follow-up	Q-140	operator	before-delivery	follow-up	—	—	the value of ‹unit \| integration› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-291	follow-up	Q-141	operator	before-delivery	follow-up	—	—	the value of ‹a REQ/NFR row in the traceability table› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-292	follow-up	Q-142	operator	before-delivery	follow-up	—	—	the value of ‹✓ / ✗› at docs/tests/dod-checklist.md:62	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-293	follow-up	Q-143	operator	before-delivery	follow-up	—	—	the value of ‹every user-facing path has a test› at docs/tests/dod-checklist.md:63	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-294	follow-up	Q-144	operator	before-delivery	follow-up	—	—	the value of ‹e2e› at docs/tests/dod-checklist.md:63	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-295	follow-up	Q-145	operator	before-delivery	follow-up	—	—	the value of ‹an E2E row per scenario› at docs/tests/dod-checklist.md:63	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-296	follow-up	Q-146	operator	before-delivery	follow-up	—	—	the value of ‹a delivered feature is signed off by a person› at docs/tests/dod-checklist.md:64	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-297	follow-up	Q-147	operator	before-delivery	follow-up	—	—	the value of ‹uat› at docs/tests/dod-checklist.md:64	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-298	follow-up	Q-148	operator	before-delivery	follow-up	—	—	the value of ‹a UAT row, human-checked› at docs/tests/dod-checklist.md:64	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-299	follow-up	Q-149	operator	before-delivery	follow-up	—	—	the value of ‹a bug fix has a test that fails on the old code› at docs/tests/dod-checklist.md:65	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-300	follow-up	Q-150	operator	before-delivery	follow-up	—	—	the value of ‹a row citing the bug's task ID› at docs/tests/dod-checklist.md:65	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-301	follow-up	Q-151	operator	before-delivery	follow-up	—	—	the value of ‹a known pitfall from guardrails.md is defended against› at docs/tests/dod-checklist.md:66	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-302	follow-up	Q-152	operator	before-delivery	follow-up	—	—	the value of ‹unit \| integration \| e2e› at docs/tests/dod-checklist.md:66	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-303	follow-up	Q-153	operator	before-delivery	follow-up	—	—	the value of ‹a row with a Guardrail cell filled in› at docs/tests/dod-checklist.md:66	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-304	follow-up	Q-154	operator	before-delivery	follow-up	—	—	the value of ‹the review round citing commit, reviewer, lens and verdict› at docs/tests/dod-checklist.md:67	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-305	follow-up	Q-155	operator	before-delivery	follow-up	—	—	the value of ‹unit test > command› at docs/tests/example-fact-to-test.md:17	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-306	follow-up	Q-156	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/tests/example-fact-to-test.md:70	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-307	follow-up	Q-157	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at docs/tests/example-fact-to-test.md:79	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-308	follow-up	Q-158	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/tests/scaling-checklist.md:10	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-309	follow-up	Q-159	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/tests/security-checklist.md:9	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-310	follow-up	Q-160	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/tests/security-checklist.md:10	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-311	follow-up	Q-161	operator	before-delivery	follow-up	—	—	the value of ‹unit test command› at docs/tests/test-levels.md:52	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-312	follow-up	Q-162	operator	before-delivery	follow-up	—	—	the value of ‹integration test command› at docs/tests/test-levels.md:64	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-313	follow-up	Q-163	operator	before-delivery	follow-up	—	—	the value of ‹end-to-end test command› at docs/tests/test-levels.md:76	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-314	follow-up	Q-164	operator	before-delivery	follow-up	—	—	the value of ‹test timeout› at docs/tests/test-levels.md:77	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-315	follow-up	Q-165	operator	before-delivery	follow-up	—	—	the value of ‹security test command› at docs/tests/test-levels.md:117	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-316	follow-up	Q-166	operator	before-delivery	follow-up	—	—	the value of ‹security scanner› at docs/tests/test-levels.md:119	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-317	follow-up	Q-167	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at docs/tests/test-levels.md:133	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-318	follow-up	Q-168	operator	before-delivery	follow-up	—	—	the value of ‹test directory› at tests/README.md:7	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered
+Q-319	follow-up	Q-169	operator	before-delivery	follow-up	—	—	the value of ‹test > directory› at tests/README.md:34	2026-10-14T17:10:49Z	layup run	2026-10-14T17:39:35Z	answered

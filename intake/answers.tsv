@@ -168,3 +168,153 @@ Q-166	gap	6173934710	1675602	2026-10-14T17:09:33Z
 Q-167	gap	6173934710	1675602	2026-10-14T17:09:33Z
 Q-168	gap	6173934710	1675602	2026-10-14T17:09:33Z
 Q-169	gap	6173934710	1675602	2026-10-14T17:09:33Z
+Q-170	gofmt -l and go vet ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-171	test -z "$(gofmt -l .)" && go vet ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-172	test -z "$(gofmt -l .)" && go vet ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-173	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-174	go test -tags=integration ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-175	go test -tags=e2e ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-176	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	6174503724	1675602	2026-10-14T17:39:35Z
+Q-177	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-178	.worktree	6174503724	1675602	2026-10-14T17:39:35Z
+Q-179	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-180	pharzam	6174503724	1675602	2026-10-14T17:39:35Z
+Q-181	layup-uat-m2d	6174503724	1675602	2026-10-14T17:39:35Z
+Q-182	main	6174503724	1675602	2026-10-14T17:39:35Z
+Q-183	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-184	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-185	gofmt and go vet	6174503724	1675602	2026-10-14T17:39:35Z
+Q-186	main	6174503724	1675602	2026-10-14T17:39:35Z
+Q-187	gofmt and go vet	6174503724	1675602	2026-10-14T17:39:35Z
+Q-188	test -z "$(gofmt -l .)" && go vet ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-189	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-190	go test -tags=integration ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-191	go test -tags=e2e ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-192	-timeout 10m	6174503724	1675602	2026-10-14T17:39:35Z
+Q-193	govulncheck, go vet and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-194	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	6174503724	1675602	2026-10-14T17:39:35Z
+Q-195	golang:1.26	6174503724	1675602	2026-10-14T17:39:35Z
+Q-196	test -z "$(gofmt -l .)" && go vet ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-197	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-198	go test -tags=integration ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-199	go test -tags=e2e ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-200	-timeout 10m	6174503724	1675602	2026-10-14T17:39:35Z
+Q-201	golang:1.26	6174503724	1675602	2026-10-14T17:39:35Z
+Q-202	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	6174503724	1675602	2026-10-14T17:39:35Z
+Q-203	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-204	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-205	go test -tags=integration ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-206	runs/	6174503724	1675602	2026-10-14T17:39:35Z
+Q-207	T- plus four random characters from 0-9 a-z without i l o u	6174503724	1675602	2026-10-14T17:39:35Z
+Q-208	.worktree	6174503724	1675602	2026-10-14T17:39:35Z
+Q-209	gofmt -l and go vet ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-210	go test -tags=e2e ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-211	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-212	each new ADR	6174503724	1675602	2026-10-14T17:39:35Z
+Q-213	Claude Opus 5.5, Claude Fable 5.1, GPT-6 Sol and Grok 4.7	6174503724	1675602	2026-10-14T17:39:35Z
+Q-214	Claude Sonnet 5, SWE-2 and GPT-6 Luna	6174503724	1675602	2026-10-14T17:39:35Z
+Q-215	off-by-one at line and buffer boundaries, a byte count reported as a character count, an invalid-UTF-8 file counted as text, and a total that silently drops a failed file	6174503724	1675602	2026-10-14T17:39:35Z
+Q-216	T-xxxx	6174503724	1675602	2026-10-14T17:39:35Z
+Q-217	seconds, bytes, and counts such as "N of M files" rather than a percentage of a percentage	6174503724	1675602	2026-10-14T17:39:35Z
+Q-218	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	6174503724	1675602	2026-10-14T17:39:35Z
+Q-219	-timeout 10m	6174503724	1675602	2026-10-14T17:39:35Z
+Q-220	*_test.go beside the code; root tests/ for end-to-end fixtures	6174503724	1675602	2026-10-14T17:39:35Z
+Q-221	the harness's own reports (Claude Code: a subagent's task report gives its token count and duration; /usage gives the tokens of the current session; a cell that no report gives is not reported)	6174503724	1675602	2026-10-14T17:39:35Z
+Q-222	The plan and its review	6174503724	1675602	2026-10-14T17:39:35Z
+Q-223	<model>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-224	<effort>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-225	<tokens>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-226	<wall-clock>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-227	The decay review rounds	6174503724	1675602	2026-10-14T17:39:35Z
+Q-228	Writing the tests and the code	6174503724	1675602	2026-10-14T17:39:35Z
+Q-229	Isolate, guardrails, docs, close-out	6174503724	1675602	2026-10-14T17:39:35Z
+Q-230	<model> or not applicable	6174503724	1675602	2026-10-14T17:39:35Z
+Q-231	<sum>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-232	<term>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-233	<abbr or ->	6174503724	1675602	2026-10-14T17:39:35Z
+Q-234	<one or two sentences: what it is and why it matters here>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-235	<a concrete instance that makes it real>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-236	The count model	6174503724	1675602	2026-10-14T17:39:35Z
+Q-237	<abbr or ->	6174503724	1675602	2026-10-14T17:39:35Z
+Q-238	<definition>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-239	<example>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-240	Input and errors	6174503724	1675602	2026-10-14T17:39:35Z
+Q-241	It is easy to print counts that look right and are wrong — a row nobody re-reads; the defense is fixtures whose expected output is written before the counter runs.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-242	the acceptance bars of the PRD — the 2-second bound for a 10 MiB file, the 64 MiB heap bound for a 1 GiB file, and the 90 percent statement coverage — plus each task's Budget maximum and Cycle cap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-243	the PRD itself, kept as a fact file hashed into the repository, and the plan-review comment on each issue	6174503724	1675602	2026-10-14T17:39:35Z
+Q-244	The failure modes that have hurt this project's field — counting tools — are boundary errors, encoding confusion, and totals that hide failures; each pitfall below names the trap, why it is silent, and the check that catches it.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-245	A UTF-8 sequence split across a buffer boundary counted as two characters, or a multi-byte character counted as two — silent because ASCII fixtures never split a sequence; the check: a streaming fixture whose buffer cut falls inside a multi-byte sequence.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-246	A CRLF counted as two line breaks, or as two characters — silent on LF-only fixtures; the check: a fixture with CRLF endings whose expected counts were written before the run.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-247	A total row that sums a file that failed partway — silent because the total still looks plausible; the check: a fixture mixing a readable file and an unreadable one, asserting the error message, the exit code, and the total.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-248	-timeout 10m	6174503724	1675602	2026-10-14T17:39:35Z
+Q-249	go build ./... && go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-250	exit 0 with no output but PASS lines	6174503724	1675602	2026-10-14T17:39:35Z
+Q-251	the full test ladder plus the security scans	6174503724	1675602	2026-10-14T17:39:35Z
+Q-252	all levels green, and coverage of the counting package at or above 90 percent of statements	6174503724	1675602	2026-10-14T17:39:35Z
+Q-253	minutes	6174503724	1675602	2026-10-14T17:39:35Z
+Q-254	an end-to-end run of the built tally binary on the recorded fixtures	6174503724	1675602	2026-10-14T17:39:35Z
+Q-255	unit tests catch boundary and encoding bugs and are cheap enough for the commit hook; integration and end-to-end tests catch flag, piping and exit-code bugs and run in CI on each change	6174503724	1675602	2026-10-14T17:39:35Z
+Q-256	Git — the PRD and the committed expected-output fixtures	6174503724	1675602	2026-10-14T17:39:35Z
+Q-257	the PRD's own numbers, and the Go documentation for gofmt, go vet, go test -timeout, and govulncheck	6174503724	1675602	2026-10-14T17:39:35Z
+Q-258	T- plus four random characters from 0-9 a-z without i l o u	6174503724	1675602	2026-10-14T17:39:35Z
+Q-259	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-260	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-261	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-262	Tally counts lines, words and characters of text files: the vocabulary a reader hits is the count, the flag, the row and the total, in that order.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-263	A count row	6174503724	1675602	2026-10-14T17:39:35Z
+Q-264	`tally file` prints one row per file — the selected counts in the fixed order lines, words, characters, then the file name: ` 12 34 567 main.go`.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-265	Flags, standard input, and the total row	6174503724	1675602	2026-10-14T17:39:35Z
+Q-266	`tally` streams each file through a fixed-size buffer; for every chunk it adds line feeds to the line count, splits words on whitespace, counts characters as UTF-8 runes, and checks the input stays valid UTF-8 across chunk edges; at end of input it prints each row and the total.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-267	A 1 GiB file must be counted within 64 MiB of heap — the tool may never hold the file, so every counter must work across buffer boundaries — and a 10 MiB file must finish in 2 seconds on 4 cores.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-268	We are more afraid of a count that looks right and is wrong than of a check that is slow; the expected output of a fixture is written down before the code runs.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-269	A ‹…› marker is never filled with a guess — guardrails.md §1	6174503724	1675602	2026-10-14T17:39:35Z
+Q-270	Test first — the failing fixture comes before the code (engineering-discipline.md, gate step 3)	6174503724	1675602	2026-10-14T17:39:35Z
+Q-271	docs/	6174503724	1675602	2026-10-14T17:39:35Z
+Q-272	the discipline documents — the gate, the guardrails, the tests and the task index	6174503724	1675602	2026-10-14T17:39:35Z
+Q-273	The kit is filled and the gates stand; the tally command itself is not written yet — the first code lands under the full gate.	6174503724	1675602	2026-10-14T17:39:35Z
+Q-274	<slug>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-275	main	6174503724	1675602	2026-10-14T17:39:35Z
+Q-276	T- plus four random characters from 0-9 a-z without i l o u	6174503724	1675602	2026-10-14T17:39:35Z
+Q-277	T- plus four random characters from 0-9 a-z without i l o u; before using an ID, confirm docs/tasks/<id>.md does not already exist	6174503724	1675602	2026-10-14T17:39:35Z
+Q-278	<ID>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-279	<one-sentence summary>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-280	<ADR or doc link>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-281	<id>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-282	<ID>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-283	<one-sentence summary of what the task found or delivered>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-284	<link>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-285	<id>	6174503724	1675602	2026-10-14T17:39:35Z
+Q-286	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-287	go test -tags=integration ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-288	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-289	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-290	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-291	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-292	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-293	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-294	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-295	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-296	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-297	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-298	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-299	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-300	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-301	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-302	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-303	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-304	gap	6174503724	1675602	2026-10-14T17:39:35Z
+Q-305	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-306	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-307	*_test.go beside the code; root tests/ for end-to-end fixtures	6174503724	1675602	2026-10-14T17:39:35Z
+Q-308	-timeout 10m	6174503724	1675602	2026-10-14T17:39:35Z
+Q-309	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-310	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	6174503724	1675602	2026-10-14T17:39:35Z
+Q-311	go test ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-312	go test -tags=integration ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-313	go test -tags=e2e ./...	6174503724	1675602	2026-10-14T17:39:35Z
+Q-314	-timeout 10m	6174503724	1675602	2026-10-14T17:39:35Z
+Q-315	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	6174503724	1675602	2026-10-14T17:39:35Z
+Q-316	govulncheck v1.8.0, go vet, and gitleaks	6174503724	1675602	2026-10-14T17:39:35Z
+Q-317	*_test.go beside the code; root tests/ for end-to-end fixtures	6174503724	1675602	2026-10-14T17:39:35Z
+Q-318	*_test.go beside the code; root tests/ for end-to-end fixtures	6174503724	1675602	2026-10-14T17:39:35Z
+Q-319	*_test.go beside the code; root tests/ for end-to-end fixtures	6174503724	1675602	2026-10-14T17:39:35Z
