@@ -19,5 +19,5 @@ pin.commit	a95965534b14b0bf14ad74da0c9a45b5f4aedf88	run
 pin.tree	8ffb250afd584da8b418bc220fb6d72e802924ce	run
 pin.time	2026-10-14T13:32:22Z	run
 issue.intake	1	forge
-issue.control	opening	forge
+issue.control	2	forge
 watch	—	run
