@@ -1,0 +1,39 @@
+start	end	fact	class	reason	text
+0	7	—	—	a heading	# tally
+9	88	—	—	a subtitle heading	## A small Go command that counts the lines, words and characters of text files
+90	176	1	constraint	—	**Technology stack:** Go, with the standard library only, built with the Go toolchain.
+178	191	—	—	a heading	## 1. Purpose
+193	264	2	context	—	A person who works in a terminal wants to know how long a text file is.
+265	397	3	need	—	The product `tally` reads the files that the person names and prints the number of lines, words and characters of each, and a total.
+399	410	—	—	a heading	## 2. Scope
+412	428	—	—	a heading	### 2.1 In scope
+430	507	4	need	—	- The command `tally [-l] [-w] [-c] [file...]`, with zero or more file names.
+508	616	5	need	—	- The flags `-l` (lines only), `-w` (words only) and `-c` (characters only); with no flag, the three counts.
+617	669	6	need	—	- Reading standard input when no file name is given.
+671	691	—	—	a heading	### 2.2 Out of scope
+693	748	7	constraint	—	- Other counts, such as bytes, paragraphs or sentences.
+749	808	8	constraint	—	- Reading archives, directories or files that are not text.
+809	872	9	constraint	—	- A graphical interface, a network service or a plug-in system.
+874	889	—	—	a heading	## 3. Behaviour
+891	951	10	constraint	—	1. A line is a run of characters that ends with a line feed.
+952	1027	11	constraint	—	The last line of a file counts when the file does not end with a line feed.
+1028	1158	12	constraint	—	2. A word is a run of characters that are not white space, where white space is a character of the Unicode property `White_Space`.
+1159	1219	13	constraint	—	3. A character is one Unicode code point of a text in UTF-8.
+1220	1357	14	need	—	4. The output has one row for each file: the counts that the flags select, then the file name, each separated from the next by one space.
+1358	1406	15	need	—	With two files or more, the last row is `total`.
+1407	1527	16	need	—	5. A file that cannot be read gives a message on standard error, with the file name and the reason, and the exit code 1.
+1528	1562	17	need	—	The other files are still counted.
+1563	1672	18	need	—	6. A file that is not valid UTF-8 gives a message on standard error, with the file name, and the exit code 1.
+1673	1717	19	need	—	7. When no error occurs, the exit code is 0.
+1719	1740	—	—	a heading	## 4. Quality targets
+1742	1775	—	—	a table header row	| Metric | Target | Measurement |
+1776	1809	—	—	a table rule line	| ------ | ------ | ----------- |
+1810	1964	20	measure	—	| Time for a file of 10 MiB | At most 2 seconds on a computer with 4 cores | A test that counts a generated file of 10 MiB and measures the elapsed time |
+1965	2102	21	measure	—	| Memory for a file of 1 GiB | At most 64 MiB of heap | A test that counts a generated file of 1 GiB and reads the heap size at the end |
+2103	2217	22	measure	—	| Test coverage of the counting package | At least 90 percent of the statements | The output of `go test -cover` |
+2219	2230	—	—	a heading	## 5. Terms
+2232	2250	—	—	a table header row	| Term | Meaning |
+2251	2269	—	—	a table rule line	| ---- | ------- |
+2270	2356	23	context	—	| **UTF-8** | The encoding of Unicode text in one to four bytes for each code point. |
+2357	2399	24	context	—	| **MiB** | A mebibyte, 1,048,576 bytes. |
+2400	2446	25	context	—	| **GiB** | A gibibyte, 1,073,741,824 bytes. |
