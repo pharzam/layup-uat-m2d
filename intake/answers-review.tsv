@@ -1,0 +1,170 @@
+question	state	reason	session
+Q-001	closed	Flags may be combined; each selects its count, printed in the fixed order lines, words, characters; no flag gives all three.	S-fb2fe0a4
+Q-002	closed	The order is fixed (lines, words, characters) whatever the order of the flags on the command line.	S-fb2fe0a4
+Q-003	closed	The standard-input row carries no name and ends after the counts, and `-` is an ordinary file name, not standard input.	S-fb2fe0a4
+Q-004	closed	The total row is the summed counts of the files counted without error, followed by `total`, in the layout of the other rows; failed files add nothing.	S-fb2fe0a4
+Q-005	closed	A file that is not valid UTF-8 is skipped entirely: no row, no share of the total, a message on standard error, exit code 1.	S-fb2fe0a4
+Q-006	closed	Not text means exactly not valid UTF-8 (rule 6), and a directory is treated as an unreadable file under rule 5 with no row and exit code 1.	S-fb2fe0a4
+Q-007	closed	A CR before LF is part of the line and counts as a character, and an empty file counts zero lines, words and characters.	S-fb2fe0a4
+Q-008	closed	The target is pinned: any 4-core computer with a solid-state disk and warm file cache, a 10 MiB ASCII file with lines of about 80 characters, timed as the whole process from start to exit; no CPU model is named, so the target must hold on any such machine.	S-fb2fe0a4
+Q-009	closed	The limit is on peak heap, measured as the largest runtime.ReadMemStats HeapAlloc sampled every 10 ms during the count, which makes the target testable.	S-fb2fe0a4
+Q-010	closed	Streaming is accepted: fixed 64 KiB buffers, UTF-8 sequences and invalid-UTF-8 detection handled across buffer boundaries, never a whole file in memory.	S-fb2fe0a4
+Q-011	closed	The idea owner defines the counting package as a package `count` in the same module, separate from `main`, holding the functions that count lines, words and characters of a reader.	S-fb2fe0a4
+Q-012	closed	B is 50.00 USD, a decimal below U (100.00).	S-fb2fe0a4
+Q-013	closed	U is 100.00 USD, a decimal above B (50.00).	S-fb2fe0a4
+Q-014	closed	The wall-clock appetite is 48.0 hours, a decimal as asked.	S-fb2fe0a4
+Q-015	closed	The stack is go, which is a catalog stack and matches the Go stack of the problem statement.	S-fb2fe0a4
+Q-016	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-017	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-018	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-019	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-020	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-021	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-022	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-023	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-024	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-025	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-026	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-027	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-028	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-029	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-030	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-031	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-032	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-033	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-034	closed	The operator accepts the value the problem statement gives at the quoted passage (Go toolchain, standard library only).	S-fb2fe0a4
+Q-035	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-036	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-037	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-038	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-039	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-040	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-041	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-042	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-043	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-044	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-045	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-046	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-047	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-048	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-049	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-050	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-051	closed	The operator accepts the value the problem statement gives at the quoted passage (go test, per the coverage target).	S-fb2fe0a4
+Q-052	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-053	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-054	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-055	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-056	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-057	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-058	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-059	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-060	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-061	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-062	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-063	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-064	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-065	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-066	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-067	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-068	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-069	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-070	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-071	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-072	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-073	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-074	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-075	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-076	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-077	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-078	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-079	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-080	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-081	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-082	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-083	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-084	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-085	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-086	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-087	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-088	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-089	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-090	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-091	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-092	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-093	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-094	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-095	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-096	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-097	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-098	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-099	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-100	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-101	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-102	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-103	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-104	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-105	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-106	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-107	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-108	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-109	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-110	closed	The operator accepts the value the problem statement gives at the quoted passage (the purpose paragraph of section 1).	S-fb2fe0a4
+Q-111	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-112	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-113	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-114	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-115	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-116	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-117	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-118	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-119	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-120	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-121	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-122	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-123	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-124	closed	The operator accepts the value the problem statement gives at the quoted passage (go test, per the coverage target).	S-fb2fe0a4
+Q-125	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-126	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-127	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-128	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-129	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-130	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-131	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-132	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-133	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-134	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-135	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-136	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-137	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-138	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-139	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-140	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-141	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-142	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-143	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-144	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-145	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-146	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-147	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-148	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-149	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-150	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-151	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-152	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-153	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-154	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-155	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-156	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-157	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-158	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-159	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-160	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-161	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-162	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-163	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-164	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-165	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-166	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-167	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-168	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
+Q-169	open	The answer `gap` supplies no value for the placeholder, so it stays unfilled.	S-fb2fe0a4
