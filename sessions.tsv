@@ -11,3 +11,4 @@ S-7f852f23	T-638e	1	product-owner	claude	2.1.299 (Claude Code)	claude-opus-5-5	7
 S-86bbe590	T-7tcv	1	product-owner	claude	2.1.299 (Claude Code)	claude-opus-5-5	754055b591261019e69837dd46ab47be17645085	f49a6366027ad3a170f3d8e04b7b20ac4af143a2	1395	349	1000000	5.00	30	ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-sonnet-5-5	—
 S-4615b33a	T-weah	1	probe	claude	2.1.300 (Claude Code)	claude-sonnet-5-5	2fc9ad7502e8e89ec4f64d718bf1d7034eef54ef	a1d6d045a66f13a338ef59eb60e8a3b9bb5c2858	453	114	1000000	5.00	30	ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-sonnet-5-5	—
 S-36fcbaed	T-p8wv	1	probe	devin	devin 3000.11.92 (7f4e64980e22)	swe-2-high	2fc9ad7502e8e89ec4f64d718bf1d7034eef54ef	1f663c256bfdd35d0ffe2a6212df53e98267afa6	453	114	262000	—	15	—	—
+S-8902818f	T-z8qv	1	product-owner	claude	2.1.300 (Claude Code)	claude-opus-5-5	754055b591261019e69837dd46ab47be17645085	1d7a7647e6153f5d4eb6e2ed61bd7091932cfb67	7617	1905	1000000	5.00	30	ANTHROPIC_DEFAULT_HAIKU_MODEL=claude-sonnet-5-5	—
