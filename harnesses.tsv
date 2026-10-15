@@ -2,3 +2,4 @@ session	harness	version	model	result	reason	files	models	end
 S-1d0b6100	claude	2.1.299 (Claude Code)	claude-sonnet-5-5	passed	—	CLAUDE.md AGENTS.md	claude-sonnet-5-5	2026-10-14T13:34:53Z
 S-708ef1f5	devin	devin 3000.11.3 (9c803229faa4)	swe-2-high	passed	—	AGENTS.md CLAUDE.md	—	2026-10-14T13:35:10Z
 S-4615b33a	claude	2.1.300 (Claude Code)	claude-sonnet-5-5	passed	—	CLAUDE.md AGENTS.md	claude-sonnet-5-5	2026-10-15T07:45:52Z
+S-36fcbaed	devin	devin 3000.11.92 (7f4e64980e22)	swe-2-high	passed	—	AGENTS.md CLAUDE.md	—	2026-10-15T07:46:09Z
