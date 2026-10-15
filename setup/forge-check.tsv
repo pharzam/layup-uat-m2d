@@ -1,0 +1,9 @@
+check	result	detail	run	at
+tree	pass	—	6daeecbaf4565805	2026-10-15T07:57:13Z
+rules:main	pass	—	6daeecbaf4565805	2026-10-15T07:57:14Z
+rules:layup-probe	pass	—	6daeecbaf4565805	2026-10-15T07:57:14Z
+rules:layup-records	fail	update: update_allows_fetch_and_merge is missing	6daeecbaf4565805	2026-10-15T07:57:14Z
+bypass:default	pass	—	6daeecbaf4565805	2026-10-15T07:57:14Z
+bypass:records	pass	—	6daeecbaf4565805	2026-10-15T07:57:14Z
+probe	pass	—	6daeecbaf4565805	2026-10-15T07:57:16Z
+activity	pass	—	6daeecbaf4565805	2026-10-15T07:57:16Z
