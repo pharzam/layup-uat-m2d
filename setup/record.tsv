@@ -1,0 +1,266 @@
+step	name	value	source	ref
+S01	stack	go	answer	S01-stack
+S01	name	pharzam/layup-uat-m2d	computed	records:start/start.tsv
+S01	visibility	public	computed	records:start/start.tsv
+S01	baseline	https://github.com/pharzam/armature	computed	records:start/start.tsv
+S01	brief.sha256	ecfd6cdb9b58c6594461bc04b626214a748095aafd340ebfa70af2aa753fbf80	computed	sha256 inputs/briefs/problem-statement.md
+S01	answers.sha256	f21dc0070fbe6e460e063d4530d1b87c9a42c7c91e217df63fc39f14918ebc86	computed	sha256 inputs/answers.tsv S01- Q-
+S01	done	S01-stack answered; the stack has a catalog entry	step	—
+S02	pin.source	https://github.com/pharzam/armature	computed	records:start/start.tsv
+S02	pin.commit	a95965534b14b0bf14ad74da0c9a45b5f4aedf88	computed	records:start/start.tsv
+S02	pin.tree	8ffb250afd584da8b418bc220fb6d72e802924ce	computed	records:start/start.tsv
+S02	pin.time	2026-10-14T13:32:22Z	computed	records:start/start.tsv
+S02	done	the commit and the tree of start.tsv	step	—
+S03	done	root tree = pin.tree	step	—
+S04	pin.adr	docs/adr/0009-pin-the-baseline.md	computed	the next free number of docs/adr/
+S04	answers.record	docs/facts/F-0001-setup-answers.md	computed	the next free ID of docs/facts/
+S04	answers.record.sha256	61791d47a02add04f5243e28f0d72c4cb85dea239df690ee190b67d19e0e2ce4	computed	sha256 docs/facts/F-0001-setup-answers.md
+S04	done	checks pin and facts	step	—
+S05	done	checks kit-history and link-lint	step	—
+S06	brief.copy	docs/facts/problem-statement-brief.md	computed	the raw file name of a brief
+S06	brief.copy.sha256	ecfd6cdb9b58c6594461bc04b626214a748095aafd340ebfa70af2aa753fbf80	computed	sha256 docs/facts/problem-statement-brief.md
+S06	done	check facts	step	—
+S07	file:docs/onboarding-for-engineers.md	efa7275ed7055a620c9a87c19287c57a8e8d217e3e2c5c9e6e58c72f8df455eb	computed	sha256 inputs/files/docs/onboarding-for-engineers.md
+S07	done	check onboarding	step	—
+S08	file:docs/glossary.md	366926df941ddf3a797f7d6592ce265b6db0646b8247b07965fbd1b45c651818	computed	sha256 inputs/files/docs/glossary.md
+S08	done	check glossary	step	—
+S09	file:docs/guardrails.md	54b156f2ed27196f6007dc5d2dfa53ad362bc6b9d44d7e4eab8626f3a824caba	computed	sha256 inputs/files/docs/guardrails.md
+S09	done	check guardrails	step	—
+S14	file:README.md	aea285d7b8e6823bd7d2e575fc8fdc3dea4753ec2e954ec24b5b9acf87815f34	computed	sha256 inputs/files/README.md
+S14	file:AGENTS.md	643107037f5675551325adfc6368ff759c0e289081e167a9577e651ed806a298	computed	sha256 inputs/files/AGENTS.md
+S14	file:.githooks/README.md	4539f015ac7a26095c52ec4074cf3bdbac5c40aa7981432f56dd77eaf9274a22	computed	sha256 inputs/files/.githooks/README.md
+S14	file:docs/adr/README.md	b7ecbc97999fa2f0868588cc6a9945367d878a3994dbb03a591b3d69ba54dc5f	computed	sha256 inputs/files/docs/adr/README.md
+S14	file:docs/ci/README.md	262d7a1cb573b2c75b3f0d17f9ecd20974567b55a738d6eac05b91b93c621f35	computed	sha256 inputs/files/docs/ci/README.md
+S14	file:docs/engineering-discipline.md	f222cdc635d87f3ff65e8faced7a391276d6ee2f3bae515d89c6732fc8bb0952	computed	sha256 inputs/files/docs/engineering-discipline.md
+S14	file:docs/issue-workflow.md	3c37fb5089292b747cde4a66a9357e5effaecc3fca1cac732f43b57f914e1ebf	computed	sha256 inputs/files/docs/issue-workflow.md
+S14	file:docs/links/README.md	a4f1fa662bb288ab27cd66f8464b58751e66c7acb5ce0d29ab95b8e3ca013f74	computed	sha256 inputs/files/docs/links/README.md
+S14	file:docs/prd/README.md	82ccb807df04becd6d3547bdb4f9e0caf33f0ac7980521df29cadc095703df41	computed	sha256 inputs/files/docs/prd/README.md
+S14	file:docs/templates/README.md	094383c40318fcb7e0b3e1899fe9c2e658e2e2b32c00ee13b3eb26636a846885	computed	sha256 inputs/files/docs/templates/README.md
+S14	file:docs/tests/README.md	ec4227276d481d3e9825150542ee31aa349c671861be79a9a2b870c2983664a3	computed	sha256 inputs/files/docs/tests/README.md
+S14	file:docs/tests/dod-checklist.md	7a59b33757eac5ae26a3c725819508ec62cb4b0e4e23c2383a56671c88a5e224	computed	sha256 inputs/files/docs/tests/dod-checklist.md
+S14	file:docs/tests/example-fact-to-test.md	d85d4a0da1754ac43249d22db30a3d692ae2407247cb8cc8fd784ec32967104c	computed	sha256 inputs/files/docs/tests/example-fact-to-test.md
+S14	file:docs/tests/scaling-checklist.md	327a72e88839b798874ae66e06c3f9e026d287c3b031c5acee5ca82831560cf9	computed	sha256 inputs/files/docs/tests/scaling-checklist.md
+S14	file:docs/tests/security-checklist.md	e77bb0bf9783d9865f5e09d0fa40421e1644c18cd33a3f077bef5d51da38f4c6	computed	sha256 inputs/files/docs/tests/security-checklist.md
+S14	file:docs/tests/template-e2e.md	9747226986f09edac55c657181e999b736b4f266654d48236f33a15657beee7c	computed	sha256 inputs/files/docs/tests/template-e2e.md
+S14	file:docs/tests/template-integration.md	86123ca8cf41f67d40ba0ac765926e283ceb2ec440bb0e7cfce57c5d6b068c74	computed	sha256 inputs/files/docs/tests/template-integration.md
+S14	file:docs/tests/template-uat.md	121ffb74103b5991bac7e37ac4f12e8817339fa9eb46eb42fefd1942627e8645	computed	sha256 inputs/files/docs/tests/template-uat.md
+S14	file:docs/tests/template-unit.md	5ac48642e8c8476e190c58531423c76caf29bd4c2e67ca2d607ea7a2b79b0063	computed	sha256 inputs/files/docs/tests/template-unit.md
+S14	file:docs/tests/test-levels.md	68782651a69cb86e2d42b97bb3199d9db7bcb099572b187b0b67fcefdc5b5c56	computed	sha256 inputs/files/docs/tests/test-levels.md
+S14	file:docs/tests/traceability-template.md	f032ceb4490a947374a09e67792cecbd6f5b7e7a3a83aa5a37fa83b7ad332f50	computed	sha256 inputs/files/docs/tests/traceability-template.md
+S14	file:tests/README.md	86b2bf1e39f5a687dee6bfd7e639b3b9e2149e964588f118e87e221dbac8f73e	computed	sha256 inputs/files/tests/README.md
+S14	done	checks identity and adapted	step	—
+S10	answers.sha256	72576248341b80efbc54509224c1c38c4f149573221af1ea1938c6a60a8a7893	computed	sha256 inputs/answers.tsv M-
+S10	done	every marker has an answer row	step	—
+S11	marker:.githooks/README.md:34	gofmt -l and go vet ./...	answer	M-2e44ba0f
+S11	marker:.githooks/pre-commit:119	test -z "$(gofmt -l .)" && go vet ./...	answer	M-c564d8b0
+S11	marker:.githooks/pre-commit:120	test -z "$(gofmt -l .)" && go vet ./...	answer	M-fc1f2462
+S11	marker:.githooks/pre-commit:124	go test ./...	answer	M-aa65fc17
+S11	marker:.githooks/pre-commit:125	go test -tags=integration ./...	answer	M-e774fb35
+S11	marker:.githooks/pre-commit:126	go test -tags=e2e ./...	answer	M-2de1f5df
+S11	marker:.githooks/pre-commit:130	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-e00b772e
+S11	marker:.githooks/pre-commit:131	govulncheck v1.8.0, go vet, and gitleaks	answer	M-7f32b213
+S11	marker:.githooks/pre-commit:132	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-e00b772e
+S11	marker:AGENTS.md:113	.worktree	answer	M-195ff798
+S11	marker:docs/ci/README.md:54	govulncheck v1.8.0, go vet, and gitleaks	answer	M-bdd9913c
+S11	marker:docs/ci/README.md:105:20	pharzam	answer	M-6495c92f
+S11	marker:docs/ci/README.md:105:32	layup-uat-m2d	answer	M-5d028d21
+S11	marker:docs/ci/README.md:105:52	main	answer	M-0b785c51
+S11	marker:docs/ci/README.md:146:14	pharzam	answer	M-6495c92f
+S11	marker:docs/ci/README.md:146:26	layup-uat-m2d	answer	M-5d028d21
+S11	marker:docs/ci/README.md:146:46	main	answer	M-0b785c51
+S11	marker:docs/ci/README.md:150	‹the setting under which a failing pipeline blocks the merge, and the command that sets it›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/ci/README.md:207	‹the setting under which a failing pipeline blocks the merge›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/ci/README.md:216	gofmt and go vet	answer	M-7c48752d
+S11	marker:docs/ci/README.md:217	govulncheck v1.8.0, go vet, and gitleaks	answer	M-bdd9913c
+S11	marker:docs/ci/github-actions-ci.yml:20	main	answer	M-0ce4a492
+S11	marker:docs/ci/github-actions-ci.yml:22	main	answer	M-0ce4a492
+S11	marker:docs/ci/github-actions-ci.yml:73	gofmt and go vet	answer	M-8a528664
+S11	marker:docs/ci/github-actions-ci.yml:77	the Go toolchain	answer	M-09fdeb15
+S11	marker:docs/ci/github-actions-ci.yml:78	test -z "$(gofmt -l .)" && go vet ./...	answer	M-abe92ef9
+S11	marker:docs/ci/github-actions-ci.yml:87	the Go toolchain	answer	M-09fdeb15
+S11	marker:docs/ci/github-actions-ci.yml:89	go test ./...	answer	M-5dbd065b
+S11	marker:docs/ci/github-actions-ci.yml:91	go test -tags=integration ./...	answer	M-012c5b41
+S11	marker:docs/ci/github-actions-ci.yml:93:14	go test -tags=e2e ./...	answer	M-3c3a055e
+S11	marker:docs/ci/github-actions-ci.yml:93:77	-timeout 10m	answer	M-42192dd7
+S11	marker:docs/ci/github-actions-ci.yml:96	govulncheck, go vet and gitleaks	answer	M-68334972
+S11	marker:docs/ci/github-actions-ci.yml:101	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-f3065341
+S11	marker:docs/ci/github-actions-ci.yml:102	govulncheck, go vet and gitleaks	answer	M-68334972
+S11	marker:docs/ci/github-actions-ci.yml:109	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-f3065341
+S11	marker:docs/ci/github-actions-ci.yml:111	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-f3065341
+S11	marker:docs/ci/github-actions-ci.yml:113	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-f3065341
+S11	marker:docs/ci/gitlab-ci.yml:61	golang:1.26	answer	M-d4d55eea
+S11	marker:docs/ci/gitlab-ci.yml:63	test -z "$(gofmt -l .)" && go vet ./...	answer	M-5058397d
+S11	marker:docs/ci/gitlab-ci.yml:67	golang:1.26	answer	M-d4d55eea
+S11	marker:docs/ci/gitlab-ci.yml:71	go test ./...	answer	M-38ba4192
+S11	marker:docs/ci/gitlab-ci.yml:72	go test -tags=integration ./...	answer	M-4f7d3cd5
+S11	marker:docs/ci/gitlab-ci.yml:73:7	go test -tags=e2e ./...	answer	M-690628c4
+S11	marker:docs/ci/gitlab-ci.yml:73:70	-timeout 10m	answer	M-31f94d9c
+S11	marker:docs/ci/gitlab-ci.yml:77	golang:1.26	answer	M-947af50a
+S11	marker:docs/ci/gitlab-ci.yml:80	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-a9082f90
+S11	marker:docs/ci/gitlab-ci.yml:81	govulncheck v1.8.0, go vet, and gitleaks	answer	M-0f476199
+S11	marker:docs/ci/gitlab-ci.yml:84	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-a9082f90
+S11	marker:docs/ci/gitlab-ci.yml:85	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-a9082f90
+S11	marker:docs/ci/gitlab-ci.yml:86	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-a9082f90
+S11	marker:docs/engineering-discipline.md:63	`go test`, the Go toolchain with the standard library only	answer	M-2fc96e62
+S11	marker:docs/engineering-discipline.md:65:4	go test ./...	answer	M-49a7ef50
+S11	marker:docs/engineering-discipline.md:65:31	go test -tags=integration ./...	answer	M-93b8c433
+S11	marker:docs/engineering-discipline.md:67	runs/	answer	M-ab93262e
+S11	marker:docs/engineering-discipline.md:69	T- plus four random characters from 0-9 a-z without i l o u	answer	M-c7a6dcec
+S11	marker:docs/engineering-discipline.md:71	.worktree	answer	M-fb033949
+S11	marker:docs/engineering-discipline.md:85	gofmt -l and go vet ./...	answer	M-5758e032
+S11	marker:docs/engineering-discipline.md:87:4	go test ./...	answer	M-49a7ef50
+S11	marker:docs/engineering-discipline.md:87:31	go test -tags=integration ./...	answer	M-93b8c433
+S11	marker:docs/engineering-discipline.md:87:65	go test -tags=e2e ./...	answer	M-81e133c1
+S11	marker:docs/engineering-discipline.md:88	govulncheck v1.8.0, go vet, and gitleaks	answer	M-7bbbccd9
+S11	marker:docs/engineering-discipline.md:123	.worktree	answer	M-fb033949
+S11	marker:docs/engineering-discipline.md:154	runs/	answer	M-ab93262e
+S11	marker:docs/engineering-discipline.md:219	each new ADR	answer	M-c01d787d
+S11	marker:docs/engineering-discipline.md:232	Claude Opus 5.5, Claude Fable 5.1, GPT-6 Sol and Grok 4.7	answer	M-8e4a74ae
+S11	marker:docs/engineering-discipline.md:233	Claude Sonnet 5, SWE-2 and GPT-6 Luna	answer	M-b259db85
+S11	marker:docs/engineering-discipline.md:278	off-by-one at line and buffer boundaries, a byte count reported as a character count, an invalid-UTF-8 file counted as text, and a total that silently drops a failed file	answer	M-d0cfb752
+S11	marker:docs/engineering-discipline.md:540	runs/	answer	M-ab93262e
+S11	marker:docs/engineering-discipline.md:600	T-xxxx	answer	M-d56aecb7
+S11	marker:docs/engineering-discipline.md:650	seconds, bytes, and counts such as "N of M files" rather than a percentage of a percentage	answer	M-bcb0a256
+S11	marker:docs/engineering-discipline.md:724	T- plus four random characters from 0-9 a-z without i l o u	answer	M-c7a6dcec
+S11	marker:docs/engineering-discipline.md:736	`go test`, the Go toolchain with the standard library only	answer	M-2fc96e62
+S11	marker:docs/engineering-discipline.md:750:5	go test ./...	answer	M-49a7ef50
+S11	marker:docs/engineering-discipline.md:750:32	go test -tags=integration ./...	answer	M-93b8c433
+S11	marker:docs/engineering-discipline.md:750:66	go test -tags=e2e ./...	answer	M-81e133c1
+S11	marker:docs/engineering-discipline.md:751	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-b2b99265
+S11	marker:docs/engineering-discipline.md:752:1	-timeout 10m	answer	M-6ec806c4
+S11	marker:docs/engineering-discipline.md:752:50	*_test.go beside the code; root tests/ for end-to-end fixtures	answer	M-70fdbb54
+S11	marker:docs/engineering-discipline.md:840:12	gofmt -l and go vet ./...	answer	M-5758e032
+S11	marker:docs/engineering-discipline.md:840:60	go test ./...	answer	M-49a7ef50
+S11	marker:docs/engineering-discipline.md:841:3	go test -tags=integration ./...	answer	M-93b8c433
+S11	marker:docs/engineering-discipline.md:841:46	govulncheck v1.8.0, go vet, and gitleaks	answer	M-7bbbccd9
+S11	marker:docs/engineering-discipline.md:902	.worktree	answer	M-fb033949
+S11	marker:docs/engineering-discipline.md:904	.worktree	answer	M-fb033949
+S11	marker:docs/engineering-discipline.md:940	runs/	answer	M-ab93262e
+S11	marker:docs/engineering-discipline.md:970	the harness's own reports (Claude Code: a subagent's task report gives its token count and duration; /usage gives the tokens of the current session; a cell that no report gives is not reported)	answer	M-65928152
+S11	marker:docs/engineering-discipline.md:976:2	The plan and its review	answer	M-f75cc068
+S11	marker:docs/engineering-discipline.md:976:46	<model>	answer	M-60256d8d
+S11	marker:docs/engineering-discipline.md:976:60	<effort>	answer	M-b18d7689
+S11	marker:docs/engineering-discipline.md:976:75	<tokens>	answer	M-c5a97f9d
+S11	marker:docs/engineering-discipline.md:976:90	<wall-clock>	answer	M-1d352d62
+S11	marker:docs/engineering-discipline.md:977:2	The decay review rounds	answer	M-71a60563
+S11	marker:docs/engineering-discipline.md:977:46	<model>	answer	M-60256d8d
+S11	marker:docs/engineering-discipline.md:977:60	<effort>	answer	M-b18d7689
+S11	marker:docs/engineering-discipline.md:977:75	<tokens>	answer	M-c5a97f9d
+S11	marker:docs/engineering-discipline.md:977:90	<wall-clock>	answer	M-1d352d62
+S11	marker:docs/engineering-discipline.md:978:2	Writing the tests and the code	answer	M-b988591c
+S11	marker:docs/engineering-discipline.md:978:53	<model>	answer	M-60256d8d
+S11	marker:docs/engineering-discipline.md:978:67	<effort>	answer	M-b18d7689
+S11	marker:docs/engineering-discipline.md:978:82	<tokens>	answer	M-c5a97f9d
+S11	marker:docs/engineering-discipline.md:978:97	<wall-clock>	answer	M-1d352d62
+S11	marker:docs/engineering-discipline.md:979:2	Isolate, guardrails, docs, close-out	answer	M-f9a5c9e9
+S11	marker:docs/engineering-discipline.md:979:55	<model> or not applicable	answer	M-8c3f695b
+S11	marker:docs/engineering-discipline.md:979:112	<wall-clock>	answer	M-1d352d62
+S11	marker:docs/engineering-discipline.md:980:20	<sum>	answer	M-70fa0c3a
+S11	marker:docs/engineering-discipline.md:980:32	<sum>	answer	M-70fa0c3a
+S11	marker:docs/glossary.md:24:3	<term>	answer	M-a36ded66
+S11	marker:docs/glossary.md:24:18	<abbr or ->	answer	M-a4a1e893
+S11	marker:docs/glossary.md:24:40	<one or two sentences: what it is and why it matters here>	answer	M-beb0c2e7
+S11	marker:docs/glossary.md:24:114	<a concrete instance that makes it real>	answer	M-031d6bb2
+S11	marker:docs/glossary.md:122	The count model	answer	M-1d102021
+S11	marker:docs/glossary.md:126:3	<term>	answer	M-a36ded66
+S11	marker:docs/glossary.md:126:18	<abbr or ->	answer	M-cdffa2a4
+S11	marker:docs/glossary.md:126:32	<definition>	answer	M-b61dd07f
+S11	marker:docs/glossary.md:126:53	<example>	answer	M-c099b629
+S11	marker:docs/glossary.md:128	Input and errors	answer	M-d596cd91
+S11	marker:docs/glossary.md:132:3	<term>	answer	M-a36ded66
+S11	marker:docs/glossary.md:132:18	<abbr or ->	answer	M-cdffa2a4
+S11	marker:docs/glossary.md:132:32	<definition>	answer	M-b61dd07f
+S11	marker:docs/glossary.md:132:53	<example>	answer	M-c099b629
+S11	marker:docs/issue-workflow.md:18	T- plus four random characters from 0-9 a-z without i l o u	answer	M-68681077
+S11	marker:docs/issue-workflow.md:38	T- plus four random characters from 0-9 a-z without i l o u	answer	M-68681077
+S11	marker:docs/issue-workflow.md:239	‹require a PR before merge›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/issue-workflow.md:243	‹require the check before merge›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/issue-workflow.md:244	‹add a coverage gate›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/issue-workflow.md:245	‹require the check before merge›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/issue-workflow.md:246	‹require the check before merge›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/issue-workflow.md:247	‹require the check before merge›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/issue-workflow.md:251	T- plus four random characters from 0-9 a-z without i l o u	answer	M-68681077
+S11	marker:docs/prd/README.md:12	<slug>	answer	M-dbe00007
+S11	marker:docs/prd/README.md:66	`go test`, the Go toolchain with the standard library only	answer	M-f6a91989
+S11	marker:docs/tasks/backlog.md:16	T- plus four random characters from 0-9 a-z without i l o u	answer	M-6664997d
+S11	marker:docs/tasks/backlog.md:20	T- plus four random characters from 0-9 a-z without i l o u; before using an ID, confirm docs/tasks/<id>.md does not already exist	answer	M-512dcd69
+S11	marker:docs/tasks/backlog.md:29:4	<ID>	answer	M-9ed5ac83
+S11	marker:docs/tasks/backlog.md:29:19	<one-sentence summary>	answer	M-2165aee7
+S11	marker:docs/tasks/backlog.md:29:48	<ADR or doc link>	answer	M-b97d0574
+S11	marker:docs/tasks/backlog.md:29:86	<id>	answer	M-c9d1db7b
+S11	marker:docs/tasks/completed.md:20:23	<ID>	answer	M-97d5d3bf
+S11	marker:docs/tasks/completed.md:20:38	<one-sentence summary of what the task found or delivered>	answer	M-fa1e33c3
+S11	marker:docs/tasks/completed.md:20:103	<link>	answer	M-96fdd004
+S11	marker:docs/tasks/completed.md:20:130	<id>	answer	M-ded5096b
+S11	marker:docs/tests/README.md:23:7	go test ./...	answer	M-8532d6ec
+S11	marker:docs/tests/README.md:23:34	go test -tags=integration ./...	answer	M-0f283031
+S11	marker:docs/tests/README.md:27	govulncheck v1.8.0, go vet, and gitleaks	answer	M-8bed9a22
+S11	marker:docs/tests/README.md:119	govulncheck v1.8.0, go vet, and gitleaks	answer	M-8bed9a22
+S11	marker:docs/tests/dod-checklist.md:62:3	‹every requirement has a test›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:62:42	‹unit \| integration›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:62:72	‹a REQ/NFR row in the traceability table›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:62:122	‹✓ / ✗›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:63:3	‹every user-facing path has a test›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:63:47	‹e2e›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:63:61	‹an E2E row per scenario›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:63:95	‹✓ / ✗›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:64:3	‹a delivered feature is signed off by a person›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:64:59	‹uat›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:64:73	‹a UAT row, human-checked›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:64:108	‹✓ / ✗›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:65:3	‹a bug fix has a test that fails on the old code›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:65:61	‹unit \| integration›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:65:91	‹a row citing the bug's task ID›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:65:132	‹✓ / ✗›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:66:3	‹a known pitfall from guardrails.md is defended against›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:66:68	‹unit \| integration \| e2e›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:66:105	‹a row with a Guardrail cell filled in›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:66:153	‹✓ / ✗›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:67:108	‹the review round citing commit, reviewer, lens and verdict›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/dod-checklist.md:67:177	‹✓ / ✗›	gap	docs/setup/open-gaps.tsv
+S11	marker:docs/tests/example-fact-to-test.md:17	go test ./...	answer	M-039684b2
+S11	marker:docs/tests/example-fact-to-test.md:73	go test ./...	answer	M-48887eed
+S11	marker:docs/tests/example-fact-to-test.md:75	go test ./...	answer	M-48887eed
+S11	marker:docs/tests/example-fact-to-test.md:81	*_test.go beside the code; root tests/ for end-to-end fixtures	answer	M-fd7b4e00
+S11	marker:docs/tests/scaling-checklist.md:10	-timeout 10m	answer	M-453d5915
+S11	marker:docs/tests/scaling-checklist.md:53	-timeout 10m	answer	M-453d5915
+S11	marker:docs/tests/scaling-checklist.md:93	-timeout 10m	answer	M-453d5915
+S11	marker:docs/tests/security-checklist.md:9	govulncheck v1.8.0, go vet, and gitleaks	answer	M-952fe1ce
+S11	marker:docs/tests/security-checklist.md:10	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-31cf51b3
+S11	marker:docs/tests/security-checklist.md:41	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-31cf51b3
+S11	marker:docs/tests/security-checklist.md:43	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-31cf51b3
+S11	marker:docs/tests/security-checklist.md:46	govulncheck v1.8.0, go vet, and gitleaks	answer	M-952fe1ce
+S11	marker:docs/tests/test-levels.md:52	go test ./...	answer	M-0b74a79f
+S11	marker:docs/tests/test-levels.md:64	go test -tags=integration ./...	answer	M-3bca9fd1
+S11	marker:docs/tests/test-levels.md:76	go test -tags=e2e ./...	answer	M-23375598
+S11	marker:docs/tests/test-levels.md:77	-timeout 10m	answer	M-793e2fd7
+S11	marker:docs/tests/test-levels.md:117	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-b97c9d4e
+S11	marker:docs/tests/test-levels.md:119	govulncheck v1.8.0, go vet, and gitleaks	answer	M-8dc743c2
+S11	marker:docs/tests/test-levels.md:128	go test ./...	answer	M-0b74a79f
+S11	marker:docs/tests/test-levels.md:129	go test -tags=integration ./...	answer	M-3bca9fd1
+S11	marker:docs/tests/test-levels.md:130	go test -tags=e2e ./...	answer	M-23375598
+S11	marker:docs/tests/test-levels.md:131	go run golang.org/x/vuln/cmd/govulncheck@v1.8.0 ./... && go vet ./... && gitleaks git --redact	answer	M-b97c9d4e
+S11	marker:docs/tests/test-levels.md:132	-timeout 10m	answer	M-793e2fd7
+S11	marker:docs/tests/test-levels.md:133	*_test.go beside the code; root tests/ for end-to-end fixtures	answer	M-6f558ed8
+S11	marker:docs/tests/test-levels.md:134	govulncheck v1.8.0, go vet, and gitleaks	answer	M-8dc743c2
+S11	marker:tests/README.md:7	*_test.go beside the code; root tests/ for end-to-end fixtures	answer	M-309f9c8f
+S11	marker:tests/README.md:34	*_test.go beside the code; root tests/ for end-to-end fixtures	answer	M-b0381356
+S11	marker.record	docs/facts/F-0002-marker-answers.md	computed	the next free ID of docs/facts/
+S11	marker.record.sha256	dc14ce0c56c618a6860fd5e5128a7da2af250e0b1ec6d40fb014079dc237565f	computed	sha256 docs/facts/F-0002-marker-answers.md
+S11	done	checks markers, sources and facts	step	—
+S12	module	github.com/pharzam/layup-uat-m2d	computed	records:start/start.tsv
+S12	catalog:.github/gates.sh	0e5bf70e01dc9593053c41d905720ff63087c86ffdec9d7b75a3be4636ab8a07	catalog	go/files/.github/gates.sh.tmpl
+S12	catalog:.github/workflows/gates.yml	6287c98974a64c756597672755a27618d953d5d9ca18e409a1d8978b57c3aa4e	catalog	go/files/.github/workflows/gates.yml.tmpl
+S12	catalog:docs/gates/coverage-floor.txt	15506652c3a668e30501b2376027f71730e06409e7ca73a553cb063622c2def4	catalog	go/files/docs/gates/coverage-floor.txt.tmpl
+S12	catalog:go.mod	c87fd73aecb42957a6369daa404b3a1a2f21199807d254e92772e9d88d2e0b5d	catalog	go/files/go.mod.tmpl
+S12	catalog:docs/gates.tsv	e7bd548fd509a1bb1d9b6c6075f4113e03ea138275a7d00aefdadd002c39e6e1	catalog	go/kinds.tsv
+S12	marker:docs/gates/coverage-floor.txt:1	‹the coverage floor of the test kind›	gap	docs/setup/open-gaps.tsv
+S12	done	checks jobs and gates	step	—
+S13	branch-protection.sha256	7327f8d86e29b110fed342db47756b9c3a6f33521fbf5f0703f4633cca7af474	computed	sha256 docs/setup/branch-protection.json
+S13	ruleset.sha256	d65a12172d790db9db1bdfe086868794b435974a0193bf71a4b984cc211ab9e1	computed	sha256 out/ruleset-default.json
+S13	without-layup	To merge with LAYUP absent, remove the required checks layup/gates, layup/spec, layup/verify and layup/rules from the ruleset "layup: the default branch".	computed	out/ruleset-default.json
+S13	done	handed to the Operator: the ruleset files, and their commands in commands.sh	step	—
+S15	setup.head	0d4c4ab51ea478a78b08a8fc226f16c13277eec3	computed	git rev-parse layup-setup
+S15	verify.sha256	368a24d474dd3a5846ca85bca015c636bf788b727d15a2b24a0465c66bed47c8	computed	sha256 out/verify.tsv
+S15	rule-paths.sha256	19c2423eb30829e3f69d3fd27f4af67cd4bbb993b879fe5ffa29f0e6af3af161	computed	sha256 out/rule-paths.tsv
+S15	done	every row of verify.tsv is pass or clear	step	—
