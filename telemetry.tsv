@@ -11,3 +11,4 @@ S-7f852f23	T-638e	—	product-owner	claude	claude-opus-5-5	subscription	2026-10-
 S-86bbe590	T-7tcv	—	product-owner	claude	claude-opus-5-5	subscription	2026-10-14T18:21:07Z	2026-10-14T18:21:09Z	2026-10-14T18:30:01Z	2	534	66	57435	3688370	observed	—	—	—	unknown	—
 S-4615b33a	T-weah	—	probe	claude	claude-sonnet-5-5	subscription	2026-10-15T07:45:44Z	2026-10-15T07:45:46Z	2026-10-15T07:45:52Z	2	8	4	255	41500	observed	—	—	—	unknown	—
 S-36fcbaed	T-p8wv	—	probe	devin	swe-2-high	subscription	2026-10-15T07:45:55Z	2026-10-15T07:45:58Z	2026-10-15T07:46:09Z	3	14	—	—	—	unavailable	the harness reports none	—	—	unknown	—
+S-8902818f	T-z8qv	—	product-owner	claude	claude-opus-5-5	subscription	2026-10-15T07:46:25Z	2026-10-15T07:46:26Z	2026-10-15T07:50:59Z	1	274	140	60518	2859968	observed	—	—	—	unknown	—
